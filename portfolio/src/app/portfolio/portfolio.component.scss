@@ -7,13 +7,37 @@
 .liens{
   display: flex;
   justify-content: end;
-  margin-right: 200px;
+  margin-right: 150px;
+  padding-top: 50px;
 }
 .liens img{
   margin-left: 20px;
 }
 .liens img:hover{
   opacity: 0.7;
+}
+.lang{
+  color:#f5f5f6;
+}
+.mailto{
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: center;
+  margin-right: 20px;
+}
+.mymail{
+  padding-left: 10px;
+  padding-top: 0px;
+  color:rgba(255,255,255,.3);
+  font-weight: lighter;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: end;
+  margin-right: 200px;
+}
+.mymail:hover{
+  color:#f5f5f6;
 }
 .aboutme{
   width: 100%;
@@ -82,22 +106,7 @@ li{
 .logosEducation img:hover{
   opacity: 0.7;
 }
-.mailto{
-  display: flex;
-  flex-direction: row;
-  height: 35px;
-  justify-content: center;
-}
-.mymail{
-  padding-left: 10px;
-  padding-top: 10px;
-  color:rgba(255,255,255,.3);
-  font-weight: lighter;
-  letter-spacing: 1px;
-}
-.mymail:hover{
-  color:#f5f5f6;
-}
+
 
 @media screen and (max-device-width:1350px),
 screen and (max-width:768px) {
@@ -138,5 +147,6 @@ screen and (max-width:768px) {
     margin-bottom: 50px;
     padding-left: 20px;
   }
+
 
 }
