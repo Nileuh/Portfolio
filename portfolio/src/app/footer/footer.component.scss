@@ -4,7 +4,6 @@
   padding-bottom: 30px;
   display: flex;
   flex-direction: row;
-  //clip-path: polygon(62% 8%, 88% 8%, 91% 60%, 100% 60%, 100% 100%, 0 100%, 0 60%, 59% 60%);
   clip-path: polygon(70% 8%, 88% 8%, 100% 8%, 100% 60%, 100% 100%, 0 100%, 0 60%, 65% 60%);
   background-color: #7b1fa2;
 }
@@ -23,5 +22,35 @@
 .myname{
   letter-spacing: 2px;
   font-weight: lighter;
+}
+button{
+  color:#f5f5f6!important;
+}
+
+@media screen and (max-device-width:1350px),
+screen and (max-width:768px) {
+  .footer{
+    width: 100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    clip-path: polygon(30% 8%, 88% 8%, 100% 8%, 100% 60%, 100% 100%, 0 100%, 0 60%, 25% 60%);
+    background-color: #7b1fa2;
+  }
+  .vide{
+    width: 64vw;
+  }
+  .signature{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 3vw;
+    width: auto;
+    height: 55px;
+  }
+  .signature img{
+    display: none;
+  }
 }
 
