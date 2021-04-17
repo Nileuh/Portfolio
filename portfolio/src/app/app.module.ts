@@ -19,6 +19,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTreeModule } from '@angular/material/tree';
 import { ProjetsComponent } from './projets/projets.component';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+// @ts-ignore
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+// tslint:disable-next-line:typedef
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -42,7 +51,15 @@ import { ProjetsComponent } from './projets/projets.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    MatTreeModule
+    MatTreeModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
