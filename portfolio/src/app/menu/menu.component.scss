@@ -34,6 +34,7 @@ button{
 .myname{
   font-size: 1.4em;
   font-weight: bold;
+  letter-spacing: 3px;
 }
 .job{
   font-size: 1em;
@@ -49,6 +50,7 @@ screen and (max-width:768px) {
   }
   .myname{
     font-size: 1.2em;
+    letter-spacing: 2px;
   }
   button{
     margin-left: 0px;

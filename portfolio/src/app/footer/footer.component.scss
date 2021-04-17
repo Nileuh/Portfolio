@@ -12,5 +12,13 @@
   width: 65%;
 }
 .signature{
+  display: flex;
+  flex-direction: row;
   width: 35%;
+  padding-left: 60px;
+  height: 55px;
 }
+.myname{
+  letter-spacing: 1px;
+}
+
