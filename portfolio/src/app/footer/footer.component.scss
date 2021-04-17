@@ -4,21 +4,21 @@
   padding-bottom: 30px;
   display: flex;
   flex-direction: row;
-  clip-path: polygon(66% 15%, 82% 15%, 86% 65%, 100% 65%, 100% 100%, 0 100%, 0 65%, 62% 65%);
+  clip-path: polygon(62% 8%, 88% 8%, 91% 60%, 100% 60%, 100% 100%, 0 100%, 0 60%, 59% 60%);
   background-color: #7b1fa2;
 }
 
 .vide{
-  width: 65%;
+  width: 64%;
 }
 .signature{
   display: flex;
   flex-direction: row;
-  width: 35%;
-  padding-left: 60px;
+  width: 36%;
   height: 55px;
 }
 .myname{
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: lighter;
 }
 
