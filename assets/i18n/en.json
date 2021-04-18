@@ -5,9 +5,9 @@
   },
   "PORTFOLIO": {
     "TITLE_ABOUTME": "FULL STACK DEVELOPER",
-    "TEXT_ABOUTME1" : "Having graduated with a master degree in software development at the Paul Sabatier University in Toulouse in 2022, I specialised in web development.",
+    "TEXT_ABOUTME1" : "Currently in the first year of a master's degree in computer science at the Paul Sabatier University in Toulouse, I specialised in web development.",
     "TEXT_ABOUTME2" : "A lifelong passion for computers, I realized several projects with different technologies, programming languages and frameworks.",
-    "TEXT_ABOUTME3" : "I am currently looking for a work-study program from September 2021.",
+    "TEXT_ABOUTME3" : "I am looking for a work placement from September 2021.",
     "TITLE_EDUCATION": "Education",
     "LI1": "Bachelor degree of computer science",
     "LI2": "Master degree in software development"
