@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 .entete{
-  width:100vw;
+  width:100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #2f3136;
@@ -13,6 +13,11 @@
 
   position: fixed;
   z-index: 100;
+}
+.myname{
+  font-size: 1.4em;
+  font-weight: lighter;
+  letter-spacing: 3px;
 }
 
 .arrondi{
@@ -24,11 +29,11 @@
   justify-content: center;
   clip-path: polygon(20% 100%, 80% 100%, 100% 0, 0 0);
 
-  width:40vw;
+  width:40%;
   margin-top: 30px;
   position: fixed;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 30%;
+  margin-right: 30%;
   z-index: 100;
 
 /*  margin-left: auto;
@@ -45,11 +50,7 @@ button{
   color:#f5f5f6!important;
   letter-spacing: 1px;
 }
-.myname{
-  font-size: 1.4em;
-  font-weight: lighter;
-  letter-spacing: 3px;
-}
+
 .job{
   font-size: 1em;
   font-weight: lighter;
