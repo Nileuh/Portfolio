@@ -4,11 +4,11 @@
     "PROFIL": "Développeur logiciel"
   },
   "PORTFOLIO": {
-    "TITLE_ABOUTME": "Je suis un développeur full stack",
-    "TEXT_ABOUTME1" : "J'ai obtenu un master informatique parcours développement logiciel à l'université Paul Sabatier à Toulouse en 2022. Ces dernières années je me suis spécialisé dans le développement web.",
-    "TEXT_ABOUTME2" : "J'ai toujours été passionné par l'informatique et j'ai réalisé plusieurs projets avec différentes technologies, langages de programmation et frameworks.",
+    "TITLE_ABOUTME": "Développeur full stack",
+    "TEXT_ABOUTME1" : "Ayant obtenu un master informatique parcours développement logiciel à l'université Paul Sabatier à Toulouse en 2022, je me suis spécialisé dans le développement web ces dernières années.",
+    "TEXT_ABOUTME2" : "Passionné par l'informatique depuis toujours, j'ai réalisé plusieurs projets avec différentes technologies, langages de programmation et frameworks.",
     "TEXT_ABOUTME3" : "Je suis actuellement en recherche d'une alternance à partir de septembre 2021.",
-    "TITLE_EDUCATION": "EDUCATION",
+    "TITLE_EDUCATION": "Education",
     "LI1": "Licence informatique",
     "LI2": "Master informatique parcours Développement Logiciel"
   },
