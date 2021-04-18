@@ -2,12 +2,16 @@
 <div class="portfolio">
 <app-menu></app-menu>
   <div class="liens">
-    <a href="https://www.linkedin.com/in/arnaud-huelin-89b3b4166/" target="_blank"><img src="/assets/linkedin.svg" width="35px" height="35px"/></a>
-    <div class="mailto">
-      <a href="mailto:arnaud.huelin@gmail.com"><img src="/assets/gmail-icon.svg" width="40px" height="35px" title="arnaud.huelin@gmail.com"/></a>
+    <div class="divLiens">
+      <a href="https://www.linkedin.com/in/arnaud-huelin-89b3b4166/" target="_blank"><img src="/assets/linkedin.svg" width="35px" height="35px"/></a>
+      <div class="mailto">
+        <a href="mailto:arnaud.huelin@gmail.com"><img src="/assets/gmail-icon.svg" width="40px" height="35px" title="arnaud.huelin@gmail.com"/></a>
+      </div>
     </div>
-    <button class="lang" mat-button (click)="toEN()">EN</button>
-    <button class="lang" mat-button (click)="toFR()">FR</button>
+    <div class="divLang">
+      <button class="lang" mat-button (click)="toEN()">EN</button>
+      <button class="lang" mat-button (click)="toFR()">FR</button>
+    </div>
   </div>
 <!--  <a href="mailto:arnaud.huelin@gmail.com" class="mymail">arnaud.huelin@gmail.com</a>-->
   <div class="aboutme">

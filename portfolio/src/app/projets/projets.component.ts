@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projets',
@@ -7,13 +7,12 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 })
 export class ProjetsComponent implements OnInit {
 
-  constructor(private elementRef: ElementRef) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
   scrollToElement($element): void {
-    // console.log($element);
     $element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
 
 /*    if (this.playMusic == false) {
