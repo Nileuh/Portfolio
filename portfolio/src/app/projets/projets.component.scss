@@ -9,7 +9,6 @@
   width: 36vw;
   margin-top: 0px;
   margin-bottom: 0px;
-  //background-color: #40444a;
   height: auto;
   border-radius: 30px;
   text-align: justify;
@@ -17,7 +16,6 @@
 
 .fleche{
   clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0, 50% 40%);
-  //background-color: #7b1fa2;
   background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
   width: 200px;
   margin-left: auto;
@@ -112,14 +110,21 @@ screen and (max-width:768px) {
   }
 
   mat-card-content, mat-card-actions{
-    padding-left:5px!important;
-    padding-right:5px!important;
+    padding-left:0px!important;
+    padding-right:0px!important;
   }
   mat-card-content{
     height: auto;
   }
+  mat-card-actions a{
+    margin-left: 0;
+    margin-right: 0;
+  }
   .emptyAfterFleche{
     height: 40px;
+  }
+  .techno{
+    font-size: 0.8em;
   }
 }
 
