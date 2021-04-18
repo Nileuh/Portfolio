@@ -1,0 +1,86 @@
+{
+  "MENU": {
+    "CV": "Resume",
+    "PROFIL": "Software developer"
+  },
+  "PORTFOLIO": {
+    "TITLE_ABOUTME": "I AM A FULL STACK DEVELOPER",
+    "TEXT_ABOUTME1" : "I graduated with a master degree in software development at the Paul Sabatier University in Toulouse in 2022. In recent years I have specialized in Web development.",
+    "TEXT_ABOUTME2" : "I have always been passionate about computer science and I realized several projects with different technologies, programming languages and frameworks.",
+    "TEXT_ABOUTME3" : "I am currently looking for a new opportunity in Ontario, Canada.",
+    "TITLE_EDUCATION": "EDUCATION",
+    "LI1": "Bachelor degree of computer science",
+    "LI2": "Master degree in software development"
+  },
+  "PROJECTS": {
+    "TITLE1" : "AdMob ads on Android and IOS application",
+    "SSTITLE1" : "University project",
+    "TEXT1": "Integration of AdMob ads in the BetFight application (IOS and Android). Monetisation and audience setting with Google tools. Reward videos and interstitial videos.",
+    "TECHNO1": "Angular Ionic Capacitor",
+    "BUTTON1": "SEE MORE",
+
+    "TITLE2" : "Website https://salepim.fr",
+    "SSTITLE2" : "Self-entrepreneurship project",
+    "TEXT2": "Conception from scratch of a website https://salepim.fr. Book sales for the writer Paul Warren, payment with Paypal API, management of deliveries with Mondial Relay or at home, automatic generation of invoices and sending to customers with a stock management section. Contact form. Log4j for logs.",
+    "TECHNO2": "Angular 11 and Java Spring",
+    "BUTTON2": "SEE MORE",
+
+    "TITLE3" : "Website https://lafeedespetitspas.fr",
+    "SSTITLE3" : "Self-entrepreneurship project",
+    "TEXT3": "Conception from scratch of a website https://lafeedespetitspas.fr. Early childhood professional, Cindy Grondin-Frison offers her services to parents and childminders. A customised administration interface allows you to modify the content of each page. Contact form.",
+    "TECHNO3": "PHP and Javascript",
+    "BUTTON3": "SEE MORE",
+
+    "TITLE4" : "Website https://www.koncept-komet.fr/",
+    "SSTITLE4" : "Internship project",
+    "TEXT4": "Conception from scratch of a website https://www.koncept-komet.fr/ from the models and visual elements provided. Management of e-mail applications to the human resources department. Project carried out as part of a 6-month internship.",
+    "TECHNO4": "Angular 8 and Java Spring",
+    "BUTTON4": "SEE MORE",
+
+    "TITLE5" : "Android CheckTour application",
+    "SSTITLE5" : "Self-entrepreneurship project",
+    "TEXT5": "Conception from scratch of a mobile application allowing coach drivers to facilitate the pre-trip check of their vehicle, mandatory in France. Checking critical points, comments and photography in case of failure. Authentication with Firebase authentication.",
+    "TECHNO5": "Java Android",
+    "BUTTON5": "SEE MORE",
+
+    "TITLE6" : "Website https://betfight.net",
+    "SSTITLE6" : "University project",
+    "TEXT6": "Conception from scratch of a website https://betfight.net introducing the BetFight mobile application. Use of the Wordpress CMS and custom-made theme. Contact form. Internationalisation of the site text in EN/FR.",
+    "TECHNO6": "WordPress and MySQL",
+    "BUTTON6": "SEE MORE",
+
+    "TITLE7" : "2D game",
+    "SSTITLE7" : "Personal project",
+    "TEXT7": "Conception from scratch of a 2D game. Keyboard movement, aiming and shooting with the mouse. Ammunition, character health and score management.",
+    "TECHNO7": "Java",
+    "BUTTON7": "SEE MORE",
+
+    "TITLE8" : "NeoCampus",
+    "SSTITLE8" : "University project",
+    "TEXT8": "Conception from scratch of an application for reporting an incident within the university (fire, breakdown, etc,...). A server application to administer users and groups. A client application to create tickets and chat with users in the group. Chat system using sockets.",
+    "TECHNO8": "Java",
+    "BUTTON8": "SEE MORE",
+
+    "TITLE9" : "TechBlog",
+    "SSTITLE9" : "University project",
+    "TEXT9": "Conception from scratch of a a technical blog. Administration interface to add, edit or delete items by category. Contact form.",
+    "TECHNO9": "Angular 8 and Java Spring",
+    "BUTTON9": "SEE MORE",
+
+    "TITLE10" : "Christmas gifts",
+    "SSTITLE10" : "Personal project",
+    "TEXT10": "Conception from scratch of a website allowing family members to create their own Christmas wish list, view those of others, and reserve gifts to give. The recipient of the gift cannot see the status of his or her own list and the gifts will remain a surprise until the big day.",
+    "TECHNO10": "PHP and MySQL",
+    "BUTTON10": "SEE MORE",
+
+    "TITLE11" : "What do we eat?",
+    "SSTITLE11" : "University project",
+    "TEXT11": "Conception from scratch of a website allowing to have a random recipe according to a chosen country, or the IP address of the customer, or completely random. The server application consumes several APIs: Geolocate API for location, The MealDB for recipes and Flickr for photos.",
+    "TECHNO11": "VueJS and Jersey REST",
+    "BUTTON11": "SEE MORE"
+  },
+
+  "FOOTER": {
+    "SIGNATURE": "Created by Arnaud Huelin"
+  }
+}

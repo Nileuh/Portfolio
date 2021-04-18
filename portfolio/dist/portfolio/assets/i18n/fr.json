@@ -1,0 +1,86 @@
+{
+  "MENU": {
+    "CV": "CV",
+    "PROFIL": "Développeur logiciel"
+  },
+  "PORTFOLIO": {
+    "TITLE_ABOUTME": "Je suis un développeur full stack",
+    "TEXT_ABOUTME1" : "J'ai obtenu un master informatique parcours développement logiciel à l'université Paul Sabatier à Toulouse en 2022. Ces dernières années je me suis spécialisé dans le développement web.",
+    "TEXT_ABOUTME2" : "J'ai toujours été passionné par l'informatique et j'ai réalisé plusieurs projets avec différentes technologies, langages de programmation et frameworks.",
+    "TEXT_ABOUTME3" : "Je suis actuellement en recherche d'une opportunité en Ontario au Canada.",
+    "TITLE_EDUCATION": "EDUCATION",
+    "LI1": "Licence informatique",
+    "LI2": "Master informatique parcours Développement Logiciel"
+  },
+  "PROJECTS": {
+    "TITLE1" : "Publicité AdMob sur Android et IOS",
+    "SSTITLE1" : "Projet universitaire",
+    "TEXT1": "Intégration de publicités AdMob dans l'application BetFight (IOS et Android). Monétisation et paramétrage du public visé avec les outils de Google. Vidéos avec récompenses et vidéos interstitielles.",
+    "TECHNO1": "Angular Ionic Capacitor",
+    "BUTTON1": "EN SAVOIR PLUS",
+
+    "TITLE2" : "Site internet https://salepim.fr",
+    "SSTITLE2" : "Projet d'auto-entrepreunariat",
+    "TEXT2": "Conception complète du site https://salepim.fr. Vente de livres pour l'auteur Paul Warren, paiement avec l'API de Paypal, gestion de livraisons avec Mondial Relay ou à domicile, génération automatique des factures puis envoi aux clients avec une partie gestion des stocks. Formulaire de contact. Log4j pour les logs.",
+    "TECHNO2": "Angular 11 et Java Spring",
+    "BUTTON2": "EN SAVOIR PLUS",
+
+    "TITLE3" : "Site internet https://lafeedespetitspas.fr",
+    "SSTITLE3" : "Projet d'auto-entrepreunariat",
+    "TEXT3": "Conception complète du site https://lafeedespetitspas.fr. Professionnelle de la petite enfance, Cindy Grondin-Frison propose ses services auprès de parents et d'assistantes maternelles. Une interface d'administration sur mesure permet de modifier le contenu de chaque page. Formulaire de contact.",
+    "TECHNO3": "PHP et Javascript",
+    "BUTTON3": "EN SAVOIR PLUS",
+
+    "TITLE4" : "Site internet https://www.koncept-komet.fr/",
+    "SSTITLE4" : "Projet de stage",
+    "TEXT4": "Conception du site https://www.koncept-komet.fr/ à partir des maquettes et éléments visuels fournis. Gestion des annonces de recrutement. Gestion d'envois de candidatures par courriel au service des ressources humaines. Projet réalisé dans le cadre d'un stage de 6 mois.",
+    "TECHNO4": "Angular 8 et Java Spring",
+    "BUTTON4": "EN SAVOIR PLUS",
+
+    "TITLE5" : "Application Android CheckTour",
+    "SSTITLE5" : "Projet d'auto-entrepreunariat",
+    "TEXT5": "Conception complète d'une application mobile permettant aux conducteurs d'autocars de faciliter la vérification avant départ de leur véhicule, obligatoire en France. Vérification des points critiques, commentaires et prises de photo en cas de défaillance. Authentification avec Firebase authentication.",
+    "TECHNO5": "Java Android",
+    "BUTTON5": "EN SAVOIR PLUS",
+
+    "TITLE6" : "Site internet https://betfight.net",
+    "SSTITLE6" : "Projet universitaire",
+    "TEXT6": "Conception complète du site https://betfight.net présentant l'application mobile BetFight. Utilisation du CMS Wordpress et thème créé sur mesure. Formulaire de contact. Internationalisation du texte du site en EN/FR.",
+    "TECHNO6": "WordPress et MySQL",
+    "BUTTON6": "EN SAVOIR PLUS",
+
+    "TITLE7" : "Jeu 2D",
+    "SSTITLE7" : "Projet personnel",
+    "TEXT7": "Conception complète d'un petit jeu 2D. Déplacements au clavier, visées et tirs à la souris. Gestion des munitions, de la santé du personnage et du score.",
+    "TECHNO7": "Java",
+    "BUTTON7": "EN SAVOIR PLUS",
+
+    "TITLE8" : "NeoCampus",
+    "SSTITLE8" : "Projet universitaire",
+    "TEXT8": "Conception complète d'une application permettant de déclarer un incident au sein de l'université (incendie, panne, etc,...). Une application serveur permettant d'administrer les utilisateurs et les groupes. Une application client permettant de créer des tickets et de discuter avec les utilisateurs du groupe concerné. Système de chat utilisant les sockets. ",
+    "TECHNO8": "Java",
+    "BUTTON8": "EN SAVOIR PLUS",
+
+    "TITLE9" : "TechBlog",
+    "SSTITLE9" : "Projet universitaire",
+    "TEXT9": "Conception complète d'un blog technique. Interface d'administration permettant d'ajouter, de modifier ou de supprimer des articles selon la catégorie. Formulaire de contact.",
+    "TECHNO9": "Angular 8 et Java Spring",
+    "BUTTON9": "EN SAVOIR PLUS",
+
+    "TITLE10" : "Cadeaux de Noël",
+    "SSTITLE10" : "Projet personnel",
+    "TEXT10": "Conception complète d'un site internet permettant à des membres d'une famille de créer leur propre liste de voeux pour Noël, de visualiser celles des autres, et de réserver des cadeaux à offrir. Le destinataire du cadeau ne peut pas voir l'état de sa propre liste et les cadeaux resteront une surprise jusqu'au jour J.",
+    "TECHNO10": "PHP et MySQL",
+    "BUTTON10": "EN SAVOIR PLUS",
+
+    "TITLE11" : "Qu'est-ce qu'on mange ?",
+    "SSTITLE11" : "Projet universitaire",
+    "TEXT11": "Conception complète d'un site internet permettant d'avoir une recette aléatoire selon un pays choisi, ou l'adresse IP du client, ou complétement aléatoire. L'application serveur consomme plusieurs API : Geolocate API pour la localisation, The MealDB pour les recettes et Flickr pour les photos.",
+    "TECHNO11": "VueJS et Jersey REST",
+    "BUTTON11": "EN SAVOIR PLUS"
+  },
+
+  "FOOTER": {
+    "SIGNATURE": "Créé par Arnaud Huelin"
+  }
+}
