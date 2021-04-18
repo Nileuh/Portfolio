@@ -75,7 +75,7 @@
 }
 h2{
   letter-spacing: 2px;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 1.8em;
   padding-bottom: 20px;
 }
@@ -108,6 +108,14 @@ li{
   font-size: 1em;
   color:#f5f5f6;
 }
+li a{
+  color:#f5f5f6;
+  text-decoration: none;
+}
+li a:hover{
+  color: #17061e;
+}
+
 .logosEducation{
   margin-left: 50px;
   display: flex;
