@@ -16,25 +16,25 @@
     "TITLE1" : "Publicité AdMob sur Android et IOS",
     "SSTITLE1" : "Projet universitaire",
     "TEXT1": "Intégration de publicités AdMob dans l'application BetFight (IOS et Android). Monétisation et paramétrage du public visé avec les outils de Google. Vidéos avec récompenses et vidéos interstitielles.",
-    "TECHNO1": "Angular Ionic Capacitor et Firestore",
+    "TECHNO1": "Angular Ionic Capacitor",
     "BUTTON1": "EN SAVOIR PLUS",
 
     "TITLE2" : "Site internet https://salepim.fr",
     "SSTITLE2" : "Projet d'auto-entrepreunariat",
     "TEXT2": "Conception complète du site https://salepim.fr. Vente de livres pour l'auteur Paul Warren, paiement avec l'API de Paypal, gestion de livraisons avec Mondial Relay ou à domicile, génération automatique des factures puis envoi aux clients avec une partie gestion des stocks. Formulaire de contact. Log4j pour les logs.",
-    "TECHNO2": "Angular 11, Java Spring et PostgreSQL",
+    "TECHNO2": "Angular 11 et Java Spring",
     "BUTTON2": "EN SAVOIR PLUS",
 
     "TITLE3" : "Site internet https://lafeedespetitspas.fr",
     "SSTITLE3" : "Projet d'auto-entrepreunariat",
     "TEXT3": "Conception complète du site https://lafeedespetitspas.fr. Professionnelle de la petite enfance, Cindy Grondin-Frison propose ses services auprès de parents et d'assistantes maternelles. Une interface d'administration sur mesure permet de modifier le contenu de chaque page. Formulaire de contact.",
-    "TECHNO3": "PHP, Javascript et MySQL",
+    "TECHNO3": "PHP et Javascript",
     "BUTTON3": "EN SAVOIR PLUS",
 
     "TITLE4" : "Site internet https://www.koncept-komet.fr",
     "SSTITLE4" : "Projet de stage",
     "TEXT4": "Conception du site https://www.koncept-komet.fr à partir des maquettes et éléments visuels fournis. Gestion des annonces de recrutement. Gestion d'envois de candidatures par courriel au service des ressources humaines. Projet réalisé dans le cadre d'un stage de 6 mois.",
-    "TECHNO4": "Angular 8, Java Spring et PostgreSQL",
+    "TECHNO4": "Angular 8 et Java Spring",
     "BUTTON4": "EN SAVOIR PLUS",
 
     "TITLE5" : "Application Android CheckTour",
@@ -46,7 +46,7 @@
     "TITLE6" : "Site internet https://betfight.net",
     "SSTITLE6" : "Projet universitaire",
     "TEXT6": "Conception complète du site https://betfight.net présentant l'application mobile BetFight. Utilisation du CMS Wordpress et thème créé sur mesure. Formulaire de contact. Internationalisation du texte du site en EN/FR.",
-    "TECHNO6": "WordPress, PHP et MySQL",
+    "TECHNO6": "WordPress et PHP",
     "BUTTON6": "EN SAVOIR PLUS",
 
     "TITLE7" : "Jeu 2D",
@@ -64,7 +64,7 @@
     "TITLE9" : "TechBlog",
     "SSTITLE9" : "Projet universitaire",
     "TEXT9": "Conception complète d'un blog technique. Interface d'administration permettant d'ajouter, de modifier ou de supprimer des articles selon la catégorie. Formulaire de contact.",
-    "TECHNO9": "Angular 8, Java Spring et PostgreSQL",
+    "TECHNO9": "Angular 8 et Java Spring",
     "BUTTON9": "EN SAVOIR PLUS",
 
     "TITLE10" : "Cadeaux de Noël",
