@@ -21,7 +21,7 @@
 
     "TITLE2" : "Website https://salepim.fr",
     "SSTITLE2" : "Self-entrepreneurship project",
-    "TEXT2": "Conception from scratch of a website https://salepim.fr. Book sales for author Paul Warren, payment with Paypal API, management of deliveries with Mondial Relay or at home, automatic generation of invoices and sending to customers with a stock management section. Contact form. Log4j for logs.",
+    "TEXT2": "Conception from scratch of a website https://salepim.fr. Book sales for the writer Paul Warren, payment with Paypal API, management of deliveries with Mondial Relay or at home, automatic generation of invoices and sending to customers with a stock management section. Contact form. Log4j for logs.",
     "TECHNO2": "Angular 11 and Java Spring",
     "BUTTON2": "SEE MORE",
 
