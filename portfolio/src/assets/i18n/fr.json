@@ -19,19 +19,19 @@
     "TECHNO1": "Angular Ionic Capacitor",
     "BUTTON1": "EN SAVOIR PLUS",
 
-    "TITLE2" : "Site internet https://salepim.fr",
+    "TITLE2" : "Site internet salepim.fr",
     "SSTITLE2" : "Projet d'auto-entrepreunariat",
     "TEXT2": "Conception complète du site https://salepim.fr. Vente de livres pour l'auteur Paul Warren, paiement avec l'API de Paypal, gestion de livraisons avec Mondial Relay ou à domicile, génération automatique des factures puis envoi aux clients avec une partie gestion des stocks. Formulaire de contact. Log4j pour les logs.",
     "TECHNO2": "Angular 11 et Java Spring",
     "BUTTON2": "EN SAVOIR PLUS",
 
-    "TITLE3" : "Site internet https://lafeedespetitspas.fr",
+    "TITLE3" : "Site internet lafeedespetitspas.fr",
     "SSTITLE3" : "Projet d'auto-entrepreunariat",
     "TEXT3": "Conception complète du site https://lafeedespetitspas.fr. Professionnelle de la petite enfance, Cindy Grondin-Frison propose ses services auprès de parents et d'assistantes maternelles. Une interface d'administration sur mesure permet de modifier le contenu de chaque page. Formulaire de contact.",
     "TECHNO3": "PHP et Javascript",
     "BUTTON3": "EN SAVOIR PLUS",
 
-    "TITLE4" : "Site internet https://www.koncept-komet.fr",
+    "TITLE4" : "Site internet koncept-komet.fr",
     "SSTITLE4" : "Projet de stage",
     "TEXT4": "Conception du site https://www.koncept-komet.fr à partir des maquettes et éléments visuels fournis. Gestion des annonces de recrutement. Gestion d'envois de candidatures par courriel au service des ressources humaines. Projet réalisé dans le cadre d'un stage de 6 mois.",
     "TECHNO4": "Angular 8 et Java Spring",
@@ -43,7 +43,7 @@
     "TECHNO5": "Java Android et Firestore",
     "BUTTON5": "EN SAVOIR PLUS",
 
-    "TITLE6" : "Site internet https://betfight.net",
+    "TITLE6" : "Site internet betfight.net",
     "SSTITLE6" : "Projet universitaire",
     "TEXT6": "Conception complète du site https://betfight.net présentant l'application mobile BetFight. Utilisation du CMS Wordpress et thème créé sur mesure. Formulaire de contact. Internationalisation du texte du site en EN/FR.",
     "TECHNO6": "WordPress et PHP",
