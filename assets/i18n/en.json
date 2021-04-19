@@ -19,19 +19,19 @@
     "TECHNO1": "Angular Ionic Capacitor",
     "BUTTON1": "SEE MORE",
 
-    "TITLE2" : "Website https://salepim.fr",
+    "TITLE2" : "Website salepim.fr",
     "SSTITLE2" : "Self-entrepreneurship project",
     "TEXT2": "Conception from scratch of a website https://salepim.fr. Book sales for the writer Paul Warren, payment with Paypal API, management of deliveries with Mondial Relay or at home, automatic generation of invoices and sending to customers with a stock management section. Contact form. Log4j for logs.",
     "TECHNO2": "Angular 11 and Java Spring",
     "BUTTON2": "SEE MORE",
 
-    "TITLE3" : "Website https://lafeedespetitspas.fr",
+    "TITLE3" : "Website lafeedespetitspas.fr",
     "SSTITLE3" : "Self-entrepreneurship project",
     "TEXT3": "Conception from scratch of a website https://lafeedespetitspas.fr. Early childhood professional, Cindy Grondin-Frison offers her services to parents and childminders. A customised administration interface allows you to modify the content of each page. Contact form.",
     "TECHNO3": "PHP and Javascript",
     "BUTTON3": "SEE MORE",
 
-    "TITLE4" : "Website https://www.koncept-komet.fr",
+    "TITLE4" : "Website koncept-komet.fr",
     "SSTITLE4" : "Internship project",
     "TEXT4": "Conception from scratch of a website https://www.koncept-komet.fr from the models and visual elements provided. Management of e-mail applications to the human resources department. Project carried out as part of a 6-month internship.",
     "TECHNO4": "Angular 8 and Java Spring",
@@ -43,7 +43,7 @@
     "TECHNO5": "Java Android and Firestore",
     "BUTTON5": "SEE MORE",
 
-    "TITLE6" : "Website https://betfight.net",
+    "TITLE6" : "Website betfight.net",
     "SSTITLE6" : "University project",
     "TEXT6": "Conception from scratch of a website https://betfight.net introducing the BetFight mobile application. Use of the Wordpress CMS and custom-made theme. Contact form. Internationalisation of the site text in EN/FR.",
     "TECHNO6": "WordPress and PHP",
