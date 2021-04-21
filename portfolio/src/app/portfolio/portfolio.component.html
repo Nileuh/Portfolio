@@ -1,5 +1,5 @@
 
-<div class="portfolio">
+<div class="portfolio" #target0>
 <app-menu></app-menu>
   <div class="liens">
     <div class="divLiens">
@@ -35,5 +35,6 @@
     </div>
   </div>
   <app-projets></app-projets>
+  <div (click)="scrollToElement(target0)" class="fleche"></div>
   <app-footer></app-footer>
 </div>

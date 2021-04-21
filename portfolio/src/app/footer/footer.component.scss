@@ -30,11 +30,6 @@ button{
 @media screen and (max-device-width:1350px),
 screen and (max-width:768px) {
   .footer{
-    width: 100%;
-    padding-top:30px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: row;
     clip-path: polygon(30% 8%, 88% 8%, 100% 8%, 100% 60%, 100% 100%, 0 100%, 0 60%, 25% 60%);
     background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
   }

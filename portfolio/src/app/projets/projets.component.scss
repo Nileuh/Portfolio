@@ -81,6 +81,13 @@ mat-card-actions{
   min-width: 30px;
 }
 
+@media screen and (max-device-width:1700px),
+screen and (max-width:1700px) {
+  .emptyAfterFleche{
+    height: 20px;
+  }
+}
+
 @media screen and (max-device-width:1400px),
 screen and (max-width:1400px) {
   .carte{

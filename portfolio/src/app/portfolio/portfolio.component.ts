@@ -25,4 +25,16 @@ export class PortfolioComponent implements OnInit {
     this.translate.use('fr');
   }
 
+  scrollToElement($element): void {
+    $element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+
+    /*    if (this.playMusic == false) {
+          this.playMusic = true;
+          let audio = new Audio();
+          audio.src = "../../assets/music/Beastie_Boys-Sabotage.mp3";
+          audio.load();
+          audio.play();
+        }*/
+  }
+
 }
