@@ -28,7 +28,7 @@
 .divLang{
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .divLiens{
@@ -49,7 +49,7 @@
   font-weight: lighter;
   letter-spacing: 1px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 200px;
 }
 .mymail:hover{
