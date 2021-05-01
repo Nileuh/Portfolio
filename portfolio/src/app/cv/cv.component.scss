@@ -1,0 +1,167 @@
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  background-color: #36393e;
+  min-height: 100vh;
+}
+.liens{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+.liens img{
+  margin-left: 20px;
+}
+.liens img:hover{
+  opacity: 0.7;
+}
+.lang{
+  color:#f5f5f6;
+  padding-right: 10px!important;
+  padding-left: 10px!important;
+  min-width: 30px;
+  border: 1px #f5f5f6 solid;
+  margin-left: 10px;
+}
+.divLang{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.divLiens{
+  display: flex;
+  flex-direction: row;
+}
+
+.mailto{
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: center;
+}
+.mymail{
+  padding-left: 10px;
+  padding-top: 0px;
+  color:rgba(255,255,255,.3);
+  font-weight: lighter;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.mymail:hover{
+  color:#f5f5f6;
+}
+h2{
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-size: 1.8em;
+  padding-bottom: 20px;
+}
+
+.fleche{
+  clip-path: polygon(100% 40%, 100% 100%, 50% 60%, 0 100%, 0 40%, 50% 0);
+  background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  height: 100px;
+  border-radius: 5px;
+  animation-fill-mode: both;
+  animation-name: exitAnim;
+  animation-duration: 0.5s;
+}
+
+.fleche:hover{
+  cursor: pointer;
+  animation-fill-mode: both;
+  animation-name: enterAnim;
+  animation-duration: 0.5s;
+}
+
+.verticalBox{
+  display: flex;
+  width:5vw;
+  height: 200px;
+  background-color: rgba(123,31,162,1);
+  clip-path: polygon(47.5% 0, 52.5% 0, 52.5% 100%, 47.5% 100%);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -20px;
+  border-radius: 15px;
+}
+.verticalBoxCenter{
+  display: flex;
+  width:30px;
+  height: 30px;
+  background-color: rgba(123,31,162,1);
+  clip-path: inset(5% 10% 5% 10%);
+  margin-right: auto;
+  margin-left: auto;
+}
+.verticalBox2{
+  margin-top:-20px;
+  display: flex;
+  width:5vw;
+  height: 200px;
+  background-color: rgba(123,31,162,1);
+  clip-path: polygon(47.5% 0, 52.5% 0, 52.5% 100%, 47.5% 100%);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 200px;
+  border-radius: 15px;
+}
+
+.verticalBox3{
+  display: flex;
+  width:30vw;
+  height: 30vw;
+  background-color: rgba(123,31,162,1);
+  clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 4% 4%, 96% 4%, 96% 96%, 1% 96%, 2% 100%, 100% 100%, 100% 0%);
+  margin-right: auto;
+  margin-left:49vw;
+  border-radius: 15px;
+  margin-bottom: -20px;
+}
+.verticalBox4{
+  display: flex;
+  width:30vw;
+  height: 30vw;
+  background-color: rgba(123,31,162,1);
+  clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 4% 4%, 96% 4%, 96% 96%, 1% 96%, 2% 100%, 100% 100%, 100% 0%);
+  border-radius: 15px;
+  margin-right: 49vw;
+  margin-left: auto;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-device-width:1700px),
+screen and (max-width:1700px) {
+  .liens{
+    padding-top: 0px;
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-device-width:1350px),
+screen and (max-width:768px) {
+  .liens{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+  .lang{
+    margin-left: 20px;
+  }
+  .fleche{
+    margin-bottom: 40px;
+  }
+
+
+}

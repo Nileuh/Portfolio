@@ -1,1 +1,24 @@
-<p>cv works!</p>
+<div class="portfolio" #target0>
+  <app-menu></app-menu>
+  <div class="liens">
+    <div class="divLiens">
+      <a href="https://www.linkedin.com/in/arnaud-huelin-89b3b4166/" target="_blank"><img src="assets/linkedin.svg" width="35px" height="35px"/></a>
+      <div class="mailto">
+        <a href="mailto:arnaud.huelin@gmail.com"><img src="assets/gmail-icon.svg" width="auto" height="35px" title="arnaud.huelin@gmail.com"/></a>
+      </div>
+    </div>
+    <div class="divLang">
+      <button class="lang" mat-button (click)="toEN()">EN</button>
+      <button class="lang" mat-button (click)="toFR()">FR</button>
+    </div>
+  </div>
+  <h2>{{ 'CV.TITLE' | translate }}</h2>
+  <div class="verticalBox"></div>
+  <div class="verticalBoxCenter"></div>
+  <div class="verticalBox2"></div>
+
+  <div class="verticalBox3"></div>
+  <div class="verticalBox4"></div>
+  <div (click)="scrollToElement(target0)" class="fleche"></div>
+  <app-footer></app-footer>
+</div>

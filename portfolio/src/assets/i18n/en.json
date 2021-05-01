@@ -82,5 +82,9 @@
 
   "FOOTER": {
     "SIGNATURE": "Created by Arnaud Huelin"
+  },
+
+  "CV": {
+    "TITLE": "The most steps of my career"
   }
 }

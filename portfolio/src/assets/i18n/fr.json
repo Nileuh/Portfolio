@@ -82,5 +82,9 @@
 
   "FOOTER": {
     "SIGNATURE": "Créé par Arnaud Huelin"
+  },
+
+  "CV": {
+    "TITLE": "Les plus grandes étapes de ma carrière"
   }
 }
