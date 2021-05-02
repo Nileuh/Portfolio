@@ -85,6 +85,34 @@
   },
 
   "CV": {
-    "TITLE": "The most steps of my career"
+    "TITLE": "The most steps of my career",
+    "EXP1": {
+      "TITLE": "Sous-officier technicien informatique - Armée de l'Air",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP2": {
+      "TITLE": "Stage développeur full-stack - Koncept-Komet",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP3": {
+      "TITLE": "Obtention de la licence",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP4": {
+      "TITLE": "Auto-entrepreneur CodeHLN",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP5": {
+      "TITLE": "Stage développeur full-stack - Infotel",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP6": {
+      "TITLE": "Alternance développeur full-stack - Infotel",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    },
+    "EXP7": {
+      "TITLE": "Obtention du master informatique développement logiciel",
+      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+    }
   }
 }

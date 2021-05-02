@@ -12,13 +12,45 @@
       <button class="lang" mat-button (click)="toFR()">FR</button>
     </div>
   </div>
-  <h2>{{ 'CV.TITLE' | translate }}</h2>
-  <div class="verticalBox"></div>
-  <div class="verticalBoxCenter"></div>
-  <div class="verticalBox2"></div>
+<!--  <div class="verticalBox"></div>-->
+<!--  <div class="verticalBoxCenter"></div>-->
+<!--  <div class="verticalBox2"></div>-->
+  <div class="mycareer">
+    <h2 class="titleMyCareer">{{ 'CV.TITLE' | translate }}</h2>
+  </div>
 
-  <div class="verticalBox3"></div>
-  <div class="verticalBox4"></div>
+  <div class="group1">
+    <img src="assets/computer.png" width="100px" height="55px" data-aos="fade-in"/>
+    <div class="exp1" data-aos="fade-left">
+      <h4 class="expTitle">{{ 'CV.EXP1.TITLE' | translate }}</h4>
+      <p class="expText">{{ 'CV.EXP1.TEXT' | translate }}</p>
+    </div>
+  </div>
+  <div class="exp2" data-aos="fade-right">
+    <h4 class="expTitle">{{ 'CV.EXP2.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP2.TEXT' | translate }}</p>
+  </div>
+  <div class="exp3" data-aos="fade-left">
+    <h4 class="expTitle">{{ 'CV.EXP3.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP3.TEXT' | translate }}</p>
+  </div>
+  <div class="exp4" data-aos="fade-right">
+    <h4 class="expTitle">{{ 'CV.EXP4.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP4.TEXT' | translate }}</p>
+  </div>
+  <div class="exp5" data-aos="fade-left">
+    <h4 class="expTitle">{{ 'CV.EXP5.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP5.TEXT' | translate }}</p>
+  </div>
+  <div class="exp6" data-aos="fade-right">
+    <h4 class="expTitle">{{ 'CV.EXP6.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP6.TEXT' | translate }}</p>
+  </div>
+  <div class="exp7" data-aos="fade-left">
+    <h4 class="expTitle">{{ 'CV.EXP7.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP7.TEXT' | translate }}</p>
+  </div>
+
   <div (click)="scrollToElement(target0)" class="fleche"></div>
   <app-footer></app-footer>
 </div>

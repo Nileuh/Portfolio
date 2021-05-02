@@ -60,6 +60,7 @@ h2{
   font-weight: normal;
   font-size: 1.8em;
   padding-bottom: 20px;
+  color:#f5f5f6;
 }
 
 .fleche{
@@ -81,6 +82,38 @@ h2{
   animation-fill-mode: both;
   animation-name: enterAnim;
   animation-duration: 0.5s;
+}
+
+@keyframes enterAnim {
+  0%   {opacity: 1;}
+  100% {opacity: 0.5;}
+}
+@keyframes exitAnim {
+  0%   {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+.mycareer{
+  width: 100%;
+  height: 420px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.titleMyCareer{
+  width: 40vw;
+  padding-top: 160px;
+  color:#f5f5f6;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .verticalBox{
@@ -116,27 +149,55 @@ h2{
   border-radius: 15px;
 }
 
-.verticalBox3{
+.exp1,.exp3, .exp5, .exp7{
   display: flex;
-  width:30vw;
-  height: 30vw;
-  background-color: rgba(123,31,162,1);
-  clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 4% 4%, 96% 4%, 96% 96%, 1% 96%, 2% 100%, 100% 100%, 100% 0%);
-  margin-right: auto;
-  margin-left:49vw;
-  border-radius: 15px;
-  margin-bottom: -20px;
+  flex-direction: column;
+  width:450px;
+  height: 200px;
+  background-color: #4c5158;
+  margin-right: 15%;
+  margin-left:auto;
+  margin-bottom: 100px;
+  border: 10px solid rgba(123,31,162,1);
 }
-.verticalBox4{
+.exp2,.exp4, .exp6{
   display: flex;
-  width:30vw;
-  height: 30vw;
-  background-color: rgba(123,31,162,1);
-  clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 4% 4%, 96% 4%, 96% 96%, 1% 96%, 2% 100%, 100% 100%, 100% 0%);
-  border-radius: 15px;
-  margin-right: 49vw;
-  margin-left: auto;
-  margin-bottom: 200px;
+  flex-direction: column;
+  width:450px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
+  margin-right: auto;
+  margin-left:15%;
+  margin-bottom: 100px;
+  border: 10px solid #f5f5f6;
+}
+
+.expTitle{
+  color:#f5f5f6;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+.expText{
+  color:#f5f5f6;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.group1{
+  display: flex;
+  flex-direction: row;
+  margin-right: 3vw;
+}
+.group1 img{
+  width:450px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: 15%;
 }
 
 @media screen and (max-device-width:1700px),
@@ -144,6 +205,9 @@ screen and (max-width:1700px) {
   .liens{
     padding-top: 0px;
     margin-top: -40px;
+  }
+  .mycareer{
+    margin-top: 0px;
   }
 }
 
@@ -161,6 +225,19 @@ screen and (max-width:768px) {
   }
   .fleche{
     margin-bottom: 40px;
+  }
+  .mycareer{
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    flex-direction: column;
+    height: auto;
+  }
+  .titleMyCareer{
+    padding-left: 0px;
+    width: 80%;
+    padding-top: 50px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 

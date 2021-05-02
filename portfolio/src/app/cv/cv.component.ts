@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-cv',
@@ -12,6 +14,7 @@ export class CvComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
   public toEN(){
