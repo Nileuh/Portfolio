@@ -86,33 +86,50 @@
 
   "CV": {
     "TITLE": "Les plus grandes étapes de ma carrière",
+    "PART1": "Expériences professionnelles",
+    "PART2": "Diplômes et formations",
     "EXP1": {
-      "TITLE": "Sous-officier technicien informatique - Armée de l'Air",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba vblablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Sous-officier technicien informatique",
+      "COMPANY" : "Armée de l'Air",
+      "DATE" : "De 2013 à 2019",
+      "TEXT": "Escadron de Défense Sol-Air de la base aérienne de Mont-de-Marsan",
+      "LI1": "Maintenances, supervision informatiques et électroniques",
+      "LI2": "administration réseaux (serveurs, modems, routeurs, commutateurs, CISCO, Solaris, Linux, Windows)"
     },
     "EXP2": {
-      "TITLE": "Stage développeur full-stack - Koncept-Komet",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Stage développeur full-stack",
+      "COMPANY" : "Koncept-Komet",
+      "DATE" :  "Stage de 6 mois en 2019",
+      "TEXT": "Entreprise de services du numérique",
+      "TEXT2" : "Angular, Java Spring, PostgreSQL"
     },
     "EXP3": {
-      "TITLE": "Obtention de la licence",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Licence informatique",
+      "DATE" : "Obtenu en 2020",
+      "TEXT": "Université Paul Sabatier à Toulouse."
     },
     "EXP4": {
-      "TITLE": "Auto-entrepreneur CodeHLN",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Auto-entrepreneur",
+      "COMPANY" : "CodeHLN",
+      "DATE" : "De 2019 à 2021",
+      "TEXT": "En parallèle avec mes études"
     },
     "EXP5": {
-      "TITLE": "Stage développeur full-stack - Infotel",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Stage développeur full-stack",
+      "COMPANY" : "Infotel",
+      "DATE" : "3 mois en 2021",
+      "TEXT": "Jeu quizz en Angular, C#"
     },
     "EXP6": {
-      "TITLE": "Alternance développeur full-stack - Infotel",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Alternance développeur full-stack",
+      "COMPANY" : "Infotel",
+      "DATE" : "De septembre 2021 à juillet 2022",
+      "TEXT": "projet"
     },
     "EXP7": {
-      "TITLE": "Obtention du master informatique développement logiciel",
-      "TEXT": "blablabla bla blabla blab lablaa blab labla blbalba blba blba"
+      "TITLE": "Master informatique développement logiciel",
+      "DATE" : "Prévu en 2022",
+      "TEXT": "Université Paul Sabatier à Toulouse"
     }
   }
 }

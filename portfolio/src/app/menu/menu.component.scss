@@ -76,9 +76,9 @@ screen and (max-width:1700px) {
 }
 
 @media screen and (max-device-width:1350px),
-screen and (max-width:768px) {
+screen and (max-width:1100px) {
   .arrondi{
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     clip-path: polygon(5% 100%, 95% 100%, 100% 0, 0 0);
     margin-top: 0px;

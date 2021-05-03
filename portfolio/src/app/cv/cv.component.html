@@ -12,44 +12,61 @@
       <button class="lang" mat-button (click)="toFR()">FR</button>
     </div>
   </div>
-<!--  <div class="verticalBox"></div>-->
-<!--  <div class="verticalBoxCenter"></div>-->
-<!--  <div class="verticalBox2"></div>-->
   <div class="mycareer">
     <h2 class="titleMyCareer">{{ 'CV.TITLE' | translate }}</h2>
   </div>
 
+  <h2 class="parts">{{ 'CV.PART1' | translate }}</h2>
   <div class="group1">
     <img src="assets/computer.png" width="100px" height="55px" data-aos="fade-in"/>
     <div class="exp1" data-aos="fade-left">
       <h4 class="expTitle">{{ 'CV.EXP1.TITLE' | translate }}</h4>
+      <h4 class="expTitle">{{ 'CV.EXP1.COMPANY' | translate }}</h4>
       <p class="expText">{{ 'CV.EXP1.TEXT' | translate }}</p>
+      <p class="expText">{{ 'CV.EXP1.DATE' | translate }}</p>
+      <ul>
+        <li>{{ 'CV.EXP1.LI1' | translate }}</li>
+        <li>{{ 'CV.EXP1.LI2' | translate }}</li>
+      </ul>
     </div>
   </div>
   <div class="exp2" data-aos="fade-right">
     <h4 class="expTitle">{{ 'CV.EXP2.TITLE' | translate }}</h4>
+    <h4 class="expTitle">{{ 'CV.EXP2.COMPANY' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP2.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP2.TEXT' | translate }}</p>
+    <p class="expText">{{ 'CV.EXP2.TEXT2' | translate }}</p>
   </div>
   <div class="exp3" data-aos="fade-left">
     <h4 class="expTitle">{{ 'CV.EXP3.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP3.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP3.TEXT' | translate }}</p>
   </div>
   <div class="exp4" data-aos="fade-right">
     <h4 class="expTitle">{{ 'CV.EXP4.TITLE' | translate }}</h4>
+    <h4 class="expTitle">{{ 'CV.EXP4.COMPANY' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP4.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP4.TEXT' | translate }}</p>
   </div>
   <div class="exp5" data-aos="fade-left">
     <h4 class="expTitle">{{ 'CV.EXP5.TITLE' | translate }}</h4>
+    <h4 class="expTitle">{{ 'CV.EXP5.COMPANY' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP5.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP5.TEXT' | translate }}</p>
   </div>
   <div class="exp6" data-aos="fade-right">
     <h4 class="expTitle">{{ 'CV.EXP6.TITLE' | translate }}</h4>
+    <h4 class="expTitle">{{ 'CV.EXP6.COMPANY' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP6.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP6.TEXT' | translate }}</p>
   </div>
   <div class="exp7" data-aos="fade-left">
     <h4 class="expTitle">{{ 'CV.EXP7.TITLE' | translate }}</h4>
+    <p class="expText">{{ 'CV.EXP7.DATE' | translate }}</p>
     <p class="expText">{{ 'CV.EXP7.TEXT' | translate }}</p>
   </div>
+
+  <h2 class="parts">{{ 'CV.PART2' | translate }}</h2>
 
   <div (click)="scrollToElement(target0)" class="fleche"></div>
   <app-footer></app-footer>
