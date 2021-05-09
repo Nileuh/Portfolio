@@ -82,5 +82,78 @@
 
   "FOOTER": {
     "SIGNATURE": "Created by Arnaud Huelin"
+  },
+
+  "CV": {
+    "TITLE": "Les plus grandes étapes de ma carrière",
+    "PART1": "Expériences professionnelles",
+    "EXP1": {
+      "TITLE": "Sous-officier technicien informatique",
+      "COMPANY" : "Armée de l'Air",
+      "DATE" : "De 2013 à 2019",
+      "TEXT": "Escadron de Défense Sol-Air de la base aérienne de Mont-de-Marsan",
+      "LI1": "Maintenances, supervision informatiques et électroniques",
+      "LI2": "administration réseaux (serveurs, modems, routeurs, commutateurs, CISCO, Solaris, Linux, Windows)",
+      "LI3": "Exercices dans le cadre de la défense de l'OTAN et opération Sentinelle"
+    },
+    "EXP2": {
+      "TITLE": "Stagiaire développeur full-stack",
+      "COMPANY" : "Koncept-Komet",
+      "DATE" :  "2019",
+      "TEXT": "Entreprise de services du numérique - Stage de 6 mois",
+      "LI1": "Site internet https:koncept-komet.fr",
+      "LI2": "Prototypages frontend pour plusieurs entreprises",
+      "DURATION": "Stage de six mois"
+    },
+    "EXP3": {
+      "TITLE": "Auto-entrepreneur",
+      "COMPANY" : "CodeHLN",
+      "DATE" : "De 2019 à 2022",
+      "TEXT": "En parallèle à mes études",
+      "LI1": "Site e-commerce pour l'éditeur Paul Wilson Éditions",
+      "LI2": "Site internet pour La Fée des Petits Pas"
+    },
+    "EXP4": {
+      "TITLE": "Stage développeur full-stack",
+      "COMPANY" : "Infotel",
+      "DATE" : "De mai à août 2021",
+      "TEXT": "Jeu quizz en Angular, C#",
+      "DURATION": "Stage de quatre mois"
+    },
+    "EXP5": {
+      "TITLE": "Alternance développeur full-stack",
+      "COMPANY" : "Infotel",
+      "DATE" : "De septembre 2021 à juillet 2022",
+      "TEXT": "projet",
+      "DURATION": "Alternance d'un an"
+    }
+  },
+  "FORMATION": {
+    "PART2": "Diplômes et formations",
+    "F1": {
+      "TITLE": "Master informatique développement logiciel",
+      "SCHOOL":"Université Paul Sabatier à Toulouse",
+      "DATE" : "Obtenu en 2022"
+    },
+    "F2": {
+      "TITLE": "Licence informatique générale",
+      "SCHOOL":"Université Paul Sabatier à Toulouse",
+      "DATE" :"Obtenu en 2020"
+    },
+    "F3": {
+      "TITLE": "",
+      "SCHOOL":"",
+      "DATE" :""
+    },
+    "F4": {
+      "TITLE": "",
+      "SCHOOL":"",
+      "DATE" :""
+    },
+    "F5": {
+      "TITLE": "",
+      "SCHOOL":"",
+      "DATE" :""
+    }
   }
 }
