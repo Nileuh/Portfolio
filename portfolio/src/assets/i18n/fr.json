@@ -87,49 +87,79 @@
   "CV": {
     "TITLE": "Les plus grandes étapes de ma carrière",
     "PART1": "Expériences professionnelles",
-    "PART2": "Diplômes et formations",
     "EXP1": {
       "TITLE": "Sous-officier technicien informatique",
       "COMPANY" : "Armée de l'Air",
-      "DATE" : "De 2013 à 2019",
+      "DATE" : "2013 - 2019",
       "TEXT": "Escadron de Défense Sol-Air de la base aérienne de Mont-de-Marsan",
-      "LI1": "Maintenances, supervision informatiques et électroniques",
-      "LI2": "administration réseaux (serveurs, modems, routeurs, commutateurs, CISCO, Solaris, Linux, Windows)"
+      "LI1": "Maintenances et supervision informatiques et électroniques",
+      "LI2": "Administration réseaux",
+      "LI3": "Opérations dans le cadre de l'OTAN et opération Sentinelle"
     },
     "EXP2": {
-      "TITLE": "Stage développeur full-stack",
+      "TITLE": "Stagiaire développeur full stack",
       "COMPANY" : "Koncept-Komet",
-      "DATE" :  "Stage de 6 mois en 2019",
+      "DATE" :  "2019",
       "TEXT": "Entreprise de services du numérique",
-      "TEXT2" : "Angular, Java Spring, PostgreSQL"
+      "LI1": "Site internet https://www.koncept-komet.fr/",
+      "LI2": "Prototypages frontend pour plusieurs entreprises",
+      "DURATION": "Stage de six mois"
     },
     "EXP3": {
-      "TITLE": "Licence informatique",
-      "DATE" : "Obtenu en 2020",
-      "TEXT": "Université Paul Sabatier à Toulouse."
-    },
-    "EXP4": {
       "TITLE": "Auto-entrepreneur",
       "COMPANY" : "CodeHLN",
-      "DATE" : "De 2019 à 2021",
-      "TEXT": "En parallèle avec mes études"
+      "DATE" : "2019 - 2022",
+      "TEXT": "En parallèle à mes études",
+      "LI1": "Site e-commerce pour l'éditeur Paul Wilson Éditions",
+      "LI2": "Site internet pour La Fée des Petits Pas"
+    },
+    "EXP4": {
+      "TITLE": "Publicité pour l'application Android et IOS BetFigtht",
+      "COMPANY" : "BetFight",
+      "DATE" : "2021",
+      "TEXT": "Intégration de publicités monétisées avec Google AdMob"
     },
     "EXP5": {
-      "TITLE": "Stage développeur full-stack",
+      "TITLE": "Stage développeur full stack",
       "COMPANY" : "Infotel",
-      "DATE" : "3 mois en 2021",
-      "TEXT": "Jeu quizz en Angular, C#"
+      "DATE" : "Depuis mai 2021",
+      "TEXT": "Quiz BrainSquiz permettant d'évaluer les compétences des collaborateurs d'Infotel",
+      "DURATION": "Stage de quatre mois"
     },
     "EXP6": {
-      "TITLE": "Alternance développeur full-stack",
+      "TITLE": "Alternance développeur full stack",
       "COMPANY" : "Infotel",
-      "DATE" : "De septembre 2021 à juillet 2022",
-      "TEXT": "projet"
-    },
-    "EXP7": {
+      "DATE" : "2021 - 2022",
+      "TEXT": "Futur projet",
+      "DURATION": "Alternance d'un an"
+    }
+  },
+  "FORMATION": {
+    "PART2": "Diplômes et formations",
+    "F1": {
       "TITLE": "Master informatique développement logiciel",
-      "DATE" : "Prévu en 2022",
-      "TEXT": "Université Paul Sabatier à Toulouse"
+      "SCHOOL":"Université Paul Sabatier à Toulouse",
+      "DATE" : "En cours"
+    },
+    "F2": {
+      "TITLE": "Licence informatique générale",
+      "SCHOOL":"Université Paul Sabatier à Toulouse",
+      "DATE" :"2020"
+    },
+    "F3": {
+      "TITLE": "Brevet élémentaire de technicien informatique et électronique",
+      "SCHOOL":"Armée de l'Air",
+      "DATE" :"2016"
+    },
+    "F4": {
+      "TITLE": "Baccalauréat STI Génie Électronique",
+      "SCHOOL":"Lycée La Fayette",
+      "DATE" :"2009"
+    },
+    "F5": {
+      "TITLE": "",
+      "SCHOOL":"",
+      "DATE" :""
     }
   }
 }

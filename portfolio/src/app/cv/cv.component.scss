@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: #36393e;
   min-height: 100vh;
+  user-select: none;
 }
 .liens{
   display: flex;
@@ -136,7 +137,6 @@ h2{
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
-  //background-color: yellow;
 }
 .parts{
   margin-left: auto;
@@ -146,16 +146,14 @@ h2{
 .exp{
   display: flex;
   flex-direction: column;
-  width:55vw;
+  width:45vw;
   height: auto;
-  //background-color: #4c5158;
-  margin-right: 10%;
-  //border: 10px solid rgba(156,39,205,1);
+  padding-left: 10px;
 }
 .dateLeft{
-  width: 45vw;
+  width: 40vw;
   padding-right: 30px;
-  //background-color: red;
+  border-right: 1px solid #7d7d8a;
 }
 
 .dateLeft h4{
@@ -167,7 +165,6 @@ h2{
 }
 
 .expTitle{
-  //color:#f5f5f6;
   color: #c475e4;
   padding-left: 10px;
   padding-right: 10px;
@@ -177,18 +174,30 @@ h2{
 }
 .expText{
   color:#f5f5f6;
+  width:90%;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: justify;
+  //text-align: justify;
   font-weight: lighter;
+  letter-spacing: 1px;
 }
 ul, li{
   color:#f5f5f6;
+  width:90%;
   margin-top: 0;
   padding-top: 0px;
   padding-right: 10px;
-  text-align: justify;
+  //text-align: justify;
   font-weight: lighter;
+  letter-spacing: 1px;
+}
+.companyStyle{
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 0;
+  padding-bottom: 10px;
+  line-height: 0;
+  color: #7d7d8a;
 }
 
 @media screen and (max-device-width:1700px),
@@ -204,7 +213,6 @@ screen and (max-width:1700px) {
     height: 20px;
   }
 }
-
 @media screen and (max-device-width:1350px),
 screen and (max-width:1100px) {
   .liens{
@@ -217,7 +225,7 @@ screen and (max-width:1100px) {
   .lang{
     margin-left: 20px;
   }
-  .fleche{
+  .fleche2, fleche{
     margin-bottom: 40px;
   }
   .mycareer{
@@ -227,20 +235,61 @@ screen and (max-width:1100px) {
   }
   .titleMyCareer{
     padding-left: 0px;
-    width: 80%;
+    width: 90%;
     padding-top: 50px;
-    text-align: left;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.4em;
   }
-  .exp1,.exp3, .exp5, .exp7{
+  .exp{
     margin-right: auto;
     margin-left:auto;
+    width: 87%;
+    padding-left: 0px;
+    text-align: center;
   }
-  .exp2,.exp4, .exp6{
+  .group1{
+    flex-direction: column;
+  }
+  .dateLeft{
+    width: 100%;
+    margin-left: auto;
     margin-right: auto;
-    margin-left:auto;
+    padding-right: 0px;
+    border-right: none;
   }
-
+  .dateLeft h4{
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+  }
+  .parts, h2 .parts{
+    text-align: center;
+    width: 100%;
+    font-size: 1.4em;
+  }
+  .expTitle{
+    font-size: 1.4em;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .expText{
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .companyStyle{
+    font-size: 1.2em;
+  }
+  ul, li{
+    width:92%;
+    margin-top: 0;
+    text-align: left;
+  }
 
 }
+
+
+
