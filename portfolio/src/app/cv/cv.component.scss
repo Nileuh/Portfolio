@@ -63,7 +63,17 @@ h2{
   padding-bottom: 20px;
   color:#f5f5f6;
 }
-
+.download{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.download a button{
+  padding: 10px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
 .fleche{
   clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0, 50% 40%);
   background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(156,39,205,1) 100%);
