@@ -5,9 +5,9 @@
   },
   "PORTFOLIO": {
     "TITLE_ABOUTME": "FULL STACK DEVELOPER",
-    "TEXT_ABOUTME1" : "Currently in the first year of a master's degree in computer science at the Paul Sabatier University in Toulouse, I specialised in web development.",
+    "TEXT_ABOUTME1" : "Currently in the second year of a master's degree in computer science at the Paul Sabatier University in Toulouse, I specialised in web development.",
     "TEXT_ABOUTME2" : "A lifelong passion for computers, I realized several projects with different technologies, programming languages and frameworks.",
-    "TEXT_ABOUTME3" : "I am looking for a work placement from September 2021.",
+    "TEXT_ABOUTME3" : "Presently I work as a software developer at Infotel.",
     "TITLE_EDUCATION": "Education",
     "LI1": "Bachelor degree of computer science",
     "LI2": "Master degree in software development"
@@ -77,7 +77,13 @@
     "SSTITLE11" : "University project",
     "TEXT11": "Conception from scratch of a website allowing to have a random recipe according to a chosen country, or the IP address of the customer, or completely random. The server application consumes several APIs: Geolocate API for location, The MealDB for recipes and Flickr for photos.",
     "TECHNO11": "VueJS and Jersey REST",
-    "BUTTON11": "SEE MORE"
+    "BUTTON11": "SEE MORE",
+
+    "TITLE13" : "Web and mobile application BrainSquiz",
+    "SSTITLE13" : "4-month internship at Infotel",
+    "TEXT13": "Features implementations : multiplayer mode, friend management, notification management and challenge mode in the web application. Feature implementation of multiplayer mode in the mobile application. Encryption and authentication with token use.",
+    "TECHNO13": "Angular, ASP.NET and Flutter",
+    "BUTTON13": "SEE MORE"
   },
 
   "FOOTER": {
@@ -98,7 +104,7 @@
       "LI3": "NATO operations and Operation Sentinel"
     },
     "EXP2": {
-      "TITLE": "Intern full stack developer",
+      "TITLE": "Full stack developer of a web application in Angular and Java EE",
       "COMPANY" : "Koncept-Komet",
       "DATE" :  "2019",
       "TEXT": "Digital services company",
@@ -111,28 +117,31 @@
       "COMPANY" : "CodeHLN",
       "DATE" : "2019 - 2022",
       "TEXT": "In addition to my studies",
-      "LI1": "E-commerce site for the publisher Paul Wilson Editions",
-      "LI2": "Website for La Fée des Petits Pas"
+      "LI1": "E-commerce site for the publisher Paul Wilson Editions in Angular and Java EE",
+      "LI2": "Website for La Fée des Petits Pas with Wordpress"
     },
     "EXP4": {
-      "TITLE": "Advertising for the Android and IOS BetFigtht application",
+      "TITLE": "Mobile developper Angular Ionic, Android and IOS",
       "COMPANY" : "BetFight",
       "DATE" : "2021",
       "TEXT": "Monetized ad integration with Google AdMob"
     },
     "EXP5": {
-      "TITLE": "Full stack developer internship",
+      "TITLE": "Full stack developer of a web application and a mobile application with Angular, ASP.NET and Flutter",
       "COMPANY" : "Infotel",
-      "DATE" : "Since May 2021",
+      "DATE" : "2021",
       "TEXT": "Quiz to evaluate the skills of Infotel employees",
+      "LI1": "Features implementations : multiplayer mode, friend management, notification management and challenge mode in the web application.",
+      "LI2": " Feature implementation of multiplayer mode in the mobile application.",
+      "LI3": "Encryption and authentication with token use.",
       "DURATION": "Four month internship"
     },
     "EXP6": {
-      "TITLE": "Alternance développeur full stack",
+      "TITLE": "Full stack developer of a web application and a mobile application with Angular, ASP.NET and Flutter",
       "COMPANY" : "Infotel",
       "DATE" : "2021 - 2022",
       "TEXT": "Futur projet",
-      "DURATION": "Alternance d'un an"
+      "DURATION": "Work-study contract of one year"
     }
   },
   "FORMATION": {
