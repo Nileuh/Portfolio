@@ -5,9 +5,9 @@
   },
   "PORTFOLIO": {
     "TITLE_ABOUTME": "Développeur full stack",
-    "TEXT_ABOUTME1" : "Actuellement en première année de master informatique parcours développement logiciel à l'université Paul Sabatier à Toulouse, je me suis spécialisé dans le développement web ces dernières années.",
+    "TEXT_ABOUTME1" : "Actuellement en deuxième année de master informatique parcours développement logiciel à l'université Paul Sabatier à Toulouse, je me suis spécialisé dans le développement web ces dernières années.",
     "TEXT_ABOUTME2" : "Passionné par l'informatique depuis toujours, j'ai réalisé plusieurs projets avec différentes technologies, langages de programmation et frameworks.",
-    "TEXT_ABOUTME3" : "Je suis en recherche d'une alternance à partir de septembre 2021.",
+    "TEXT_ABOUTME3" : "Je suis actuellement en alternance chez Infotel jusqu'à juillet 2022.",
     "TITLE_EDUCATION": "Education",
     "LI1": "Licence informatique",
     "LI2": "Master informatique parcours Développement Logiciel"
@@ -77,7 +77,13 @@
     "SSTITLE11" : "Projet universitaire",
     "TEXT11": "Conception complète d'un site internet permettant d'avoir une recette aléatoire selon un pays choisi, ou l'adresse IP du client, ou complétement aléatoire. L'application serveur consomme plusieurs API : Geolocate API pour la localisation, The MealDB pour les recettes et Flickr pour les photos.",
     "TECHNO11": "VueJS et Jersey REST",
-    "BUTTON11": "EN SAVOIR PLUS"
+    "BUTTON11": "EN SAVOIR PLUS",
+
+    "TITLE13" : "Application web et mobile BrainSquiz",
+    "SSTITLE13" : "Stage de 4 mois chez Infotel",
+    "TEXT13": "Implémentation des fonctionnalités : Mode multijoueur, gestion des amis, gestion des notifications et mode défi pour l'application web. Implémentation du mode multijoueur pour l'application mobile. Chiffrement et authentification avec utilisation de tokens.",
+    "TECHNO13": "Angular, ASP.NET et Flutter",
+    "BUTTON13": "SEE MORE"
   },
 
   "FOOTER": {
@@ -98,7 +104,7 @@
       "LI3": "Opérations dans le cadre de l'OTAN et opération Sentinelle"
     },
     "EXP2": {
-      "TITLE": "Stagiaire développeur full stack",
+      "TITLE": "Développeur full stack d'une application web en Angular et en Java EE",
       "COMPANY" : "Koncept-Komet",
       "DATE" :  "2019",
       "TEXT": "Entreprise de services du numérique",
@@ -111,24 +117,27 @@
       "COMPANY" : "CodeHLN",
       "DATE" : "2019 - 2022",
       "TEXT": "En parallèle à mes études",
-      "LI1": "Site e-commerce pour l'éditeur Paul Wilson Éditions",
-      "LI2": "Site internet pour La Fée des Petits Pas"
+      "LI1": "Site e-commerce pour l'éditeur Paul Wilson Éditions en Angular et Java EE",
+      "LI2": "Site internet pour La Fée des Petits Pas avec Wordpress"
     },
     "EXP4": {
-      "TITLE": "Publicité pour l'application Android et IOS BetFigtht",
+      "TITLE": "Développeur mobile Angular Ionic, Android et IOS",
       "COMPANY" : "BetFight",
       "DATE" : "2021",
       "TEXT": "Intégration de publicités monétisées avec Google AdMob"
     },
     "EXP5": {
-      "TITLE": "Stage développeur full stack",
+      "TITLE": "Développeur full stack d'une application web et mobile avec Angular, ASP.NET et Flutter",
       "COMPANY" : "Infotel",
-      "DATE" : "Depuis mai 2021",
-      "TEXT": "Quiz BrainSquiz permettant d'évaluer les compétences des collaborateurs d'Infotel",
+      "DATE" : "2021",
+      "TEXT": "Quiz BrainSquiz permettant d'évaluer les compétences des collaborateurs d'Infotel.",
+      "LI1": "Implémentation du mode mutlijoueur, gestion des amis, gestion des notifications et mode défi pour l'application web",
+      "LI2": "Implémentation du mode multijoueur pour l'application mobile",
+      "LI3": "Chiffrement et authentification avec utilisation de tokens.",
       "DURATION": "Stage de quatre mois"
     },
     "EXP6": {
-      "TITLE": "Alternance développeur full stack",
+      "TITLE": "Développeur full stack d'une application web et mobile avec Angular, ASP.NET et Flutter",
       "COMPANY" : "Infotel",
       "DATE" : "2021 - 2022",
       "TEXT": "Futur projet",
