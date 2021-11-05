@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636105699313,
+  "timestamp": 1636105993724,
   "index": "/Portfolio/index.html",
   "assetGroups": [
     {
@@ -43,7 +43,6 @@
         "/Portfolio/assets/icons/icon-128x128.png",
         "/Portfolio/assets/icons/icon-144x144.png",
         "/Portfolio/assets/icons/icon-152x152.png",
-        "/Portfolio/assets/icons/icon-192x192.png",
         "/Portfolio/assets/icons/icon-384x384.png",
         "/Portfolio/assets/icons/icon-512x512.png",
         "/Portfolio/assets/icons/icon-72x72.png",
@@ -77,11 +76,10 @@
     "/Portfolio/assets/gmail-icon.svg": "649a01758fb3152c6bb3e0307f442b9f3e6d2f48",
     "/Portfolio/assets/i18n/en.json": "fe31afb339ed9a0c5fe1703ee70065d9e4fcebf3",
     "/Portfolio/assets/i18n/fr.json": "eff08c4d14193baebff9cc1a591748b56c4d434e",
-    "/Portfolio/assets/icons/hln.png": "8445e1178881a6a033191c24b0d946f6246658f2",
+    "/Portfolio/assets/icons/hln.png": "06ac845a414c61fe14acc484f7cd4832d771db91",
     "/Portfolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/Portfolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/Portfolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/Portfolio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
     "/Portfolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
     "/Portfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/Portfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
