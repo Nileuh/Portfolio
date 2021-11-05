@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1636104555348,
+  "index": "/Portfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Portfolio/favicon.ico",
+        "/Portfolio/index.html",
+        "/Portfolio/main.e9d669c5fbbab72c2f61.js",
+        "/Portfolio/manifest.webmanifest",
+        "/Portfolio/polyfills.8c151b8375e767ff858f.js",
+        "/Portfolio/runtime.0e49e2b53282f40c8925.js",
+        "/Portfolio/styles.c42b922b8151077dc6d4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Portfolio/assets/HUELIN-Arnaud_CV.pdf",
+        "/Portfolio/assets/admob/admob4R.jpg",
+        "/Portfolio/assets/betfight_wp/betfightR.jpg",
+        "/Portfolio/assets/brainsquiz/Resultat_multi.PNG",
+        "/Portfolio/assets/cadeaunoel/cadeaunoelR.jpg",
+        "/Portfolio/assets/checktour/checktour2R.jpg",
+        "/Portfolio/assets/computer.png",
+        "/Portfolio/assets/gmail-icon.svg",
+        "/Portfolio/assets/i18n/en.json",
+        "/Portfolio/assets/i18n/fr.json",
+        "/Portfolio/assets/icons/icon-128x128.png",
+        "/Portfolio/assets/icons/icon-144x144.png",
+        "/Portfolio/assets/icons/icon-152x152.png",
+        "/Portfolio/assets/icons/icon-192x192.png",
+        "/Portfolio/assets/icons/icon-384x384.png",
+        "/Portfolio/assets/icons/icon-512x512.png",
+        "/Portfolio/assets/icons/icon-72x72.png",
+        "/Portfolio/assets/icons/icon-96x96.png",
+        "/Portfolio/assets/jeu2D/jeu2dR.jpg",
+        "/Portfolio/assets/koncept/konceptR.jpg",
+        "/Portfolio/assets/lafdpp/lafdpp2R.jpg",
+        "/Portfolio/assets/le cnam.jpg",
+        "/Portfolio/assets/linkedin.svg",
+        "/Portfolio/assets/logo-master-dl.png",
+        "/Portfolio/assets/logo-ups-fsi.png",
+        "/Portfolio/assets/meta.PNG",
+        "/Portfolio/assets/neocampus/neocampus2R.jpg",
+        "/Portfolio/assets/salepim/salepimR.jpg",
+        "/Portfolio/assets/techblog/techblogR.png",
+        "/Portfolio/assets/webx/webxR.jpg",
+        "/Portfolio/assets/webx/webxR2.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Portfolio/assets/HUELIN-Arnaud_CV.pdf": "d45e44b891f1d6ff6cb6ee5e8d59df09b6527ad1",
+    "/Portfolio/assets/admob/admob4R.jpg": "a92330e4eba1ea752d1aabd233be5ad7d0deb37d",
+    "/Portfolio/assets/betfight_wp/betfightR.jpg": "0ea9117250a681ec4177593f2743fe028a9d1c2c",
+    "/Portfolio/assets/brainsquiz/Resultat_multi.PNG": "2cda8739c7baf1a13f918f4ab7b7d9f99ef180ec",
+    "/Portfolio/assets/cadeaunoel/cadeaunoelR.jpg": "a24b78075e56a4f796ae71e23c9178190f4dd3c6",
+    "/Portfolio/assets/checktour/checktour2R.jpg": "6a26e724b2de6d6bc6a854d4b260464ca1de8734",
+    "/Portfolio/assets/computer.png": "2380a01b90da3866ef35083773c21e4c1d14f4b5",
+    "/Portfolio/assets/gmail-icon.svg": "649a01758fb3152c6bb3e0307f442b9f3e6d2f48",
+    "/Portfolio/assets/i18n/en.json": "fe31afb339ed9a0c5fe1703ee70065d9e4fcebf3",
+    "/Portfolio/assets/i18n/fr.json": "eff08c4d14193baebff9cc1a591748b56c4d434e",
+    "/Portfolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/Portfolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/Portfolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/Portfolio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/Portfolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/Portfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/Portfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/Portfolio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/Portfolio/assets/jeu2D/jeu2dR.jpg": "714865c26d80ce244ff45ebc42e1771236013800",
+    "/Portfolio/assets/koncept/konceptR.jpg": "e94dabdbf3ab710967da18bfb286defd4366077c",
+    "/Portfolio/assets/lafdpp/lafdpp2R.jpg": "79c341ca902be5902495a4ff968bafded96d2e57",
+    "/Portfolio/assets/le cnam.jpg": "33218349a0caf794d4e77e3d0d3fce1fc539c460",
+    "/Portfolio/assets/linkedin.svg": "27053f2a59b05fd1c6ab3ee0a97f31567087ff52",
+    "/Portfolio/assets/logo-master-dl.png": "165b269885ab8762cbd651949dba090d5beca58a",
+    "/Portfolio/assets/logo-ups-fsi.png": "9722fe56a1911c2b7428b7954c231ef103a13440",
+    "/Portfolio/assets/meta.PNG": "6c4a715e6566bc5cd7f0165550f2516791d837f2",
+    "/Portfolio/assets/neocampus/neocampus2R.jpg": "648e85d2cdaf54196856a23b1644781a5e710a62",
+    "/Portfolio/assets/salepim/salepimR.jpg": "a532893442c71c663430ede2006a0194189937c5",
+    "/Portfolio/assets/techblog/techblogR.png": "cbfa5c211f46d4e7d5a90fc974d797f1d8f6c5f8",
+    "/Portfolio/assets/webx/webxR.jpg": "57bb77c20e403ab5e08466b330dc9547961490b1",
+    "/Portfolio/assets/webx/webxR2.jpg": "363121585c234b8dff22125e0a82359d8a51c4c5",
+    "/Portfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/Portfolio/index.html": "eec69aed0a33c6f1821c11ab117935d4b49636e3",
+    "/Portfolio/main.e9d669c5fbbab72c2f61.js": "08e8b82c0999bd11f46af117c0e47851be75dc9a",
+    "/Portfolio/manifest.webmanifest": "e14484a4f652e2f158ec8045c44ef1b6d61e9f2d",
+    "/Portfolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/Portfolio/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/Portfolio/styles.c42b922b8151077dc6d4.css": "382e6a10bb72ff5e889bedbaacbdb2cb1a54ac7e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
