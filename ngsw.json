@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636104742238,
+  "timestamp": 1636105573477,
   "index": "/Portfolio/index.html",
   "assetGroups": [
     {
@@ -39,6 +39,7 @@
         "/Portfolio/assets/gmail-icon.svg",
         "/Portfolio/assets/i18n/en.json",
         "/Portfolio/assets/i18n/fr.json",
+        "/Portfolio/assets/icons/hln.png",
         "/Portfolio/assets/icons/icon-128x128.png",
         "/Portfolio/assets/icons/icon-144x144.png",
         "/Portfolio/assets/icons/icon-152x152.png",
@@ -76,6 +77,7 @@
     "/Portfolio/assets/gmail-icon.svg": "649a01758fb3152c6bb3e0307f442b9f3e6d2f48",
     "/Portfolio/assets/i18n/en.json": "fe31afb339ed9a0c5fe1703ee70065d9e4fcebf3",
     "/Portfolio/assets/i18n/fr.json": "eff08c4d14193baebff9cc1a591748b56c4d434e",
+    "/Portfolio/assets/icons/hln.png": "8445e1178881a6a033191c24b0d946f6246658f2",
     "/Portfolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/Portfolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/Portfolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -100,7 +102,7 @@
     "/Portfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/Portfolio/index.html": "eec69aed0a33c6f1821c11ab117935d4b49636e3",
     "/Portfolio/main.e9d669c5fbbab72c2f61.js": "08e8b82c0999bd11f46af117c0e47851be75dc9a",
-    "/Portfolio/manifest.webmanifest": "e14484a4f652e2f158ec8045c44ef1b6d61e9f2d",
+    "/Portfolio/manifest.webmanifest": "47fe056289caa80e09b85ed3f679edca2b0507c8",
     "/Portfolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/Portfolio/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/Portfolio/styles.c42b922b8151077dc6d4.css": "382e6a10bb72ff5e889bedbaacbdb2cb1a54ac7e"
