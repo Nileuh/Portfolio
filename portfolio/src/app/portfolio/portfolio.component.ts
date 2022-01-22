@@ -1,16 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import {DatasService} from "../services/datas.service";
+import {Techno} from "../models/techno";
 
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  styleUrls: ['./portfolio.component.scss'],encapsulation: ViewEncapsulation.None,
 })
 export class PortfolioComponent implements OnInit {
-  constructor(private translate: TranslateService) {
+
+
+  technoSelected :string;
+  technos: Techno[] = [];
+
+  constructor(private translate: TranslateService, private dataService : DatasService) {
   }
 
   ngOnInit(): void {
+    this.technos = this.dataService.getTechnos();
   }
 
   public toEN(){
@@ -32,4 +40,32 @@ export class PortfolioComponent implements OnInit {
         }*/
   }
 
+  tstselect(){
+    console.log("fd");
+  }
+
+  remove(techno: Techno): void {
+    const index = this.technos.indexOf(techno);
+
+    if (index >= 0) {
+      this.technos.splice(index, 1);
+    }
+  }
+
+  selectedTechno(techno:Techno){
+    this.technoSelected = techno.name;
+    this.technos.forEach(t => {
+      if (t == techno){
+        if (t.selected==true){
+          t.selected=false;
+          this.technoSelected = null;
+        }else{
+          t.selected = true;
+        }
+      }else{
+        t.selected = false;
+      }
+    });
+
+  }
 }

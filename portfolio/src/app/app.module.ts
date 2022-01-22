@@ -25,6 +25,9 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import {MatChipsModule} from "@angular/material/chips";
+import {ProjectComponent} from "./portfolio/project/project.component";
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 // tslint:disable-next-line:typedef
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -38,7 +41,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     CvComponent,
     MenuComponent,
     FooterComponent,
-    ProjetsComponent
+    ProjetsComponent,
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,12 +52,14 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
+    MatChipsModule,
     MatIconModule,
     MatListModule,
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
     MatTreeModule,
+    MatTooltipModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

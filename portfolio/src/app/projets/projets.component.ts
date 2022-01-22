@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Techno} from "../models/techno";
+import {DatasService} from "../services/datas.service";
+import {Project} from "../models/project";
 
 @Component({
   selector: 'app-projets',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetsComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  technoSelected : string;
+
+  technos: Techno[] = [];
+
+  constructor(private dataService : DatasService) { }
 
   ngOnInit(): void {
+    this.technos = this.dataService.getTechnos();
   }
 
   scrollToElement($element): void {

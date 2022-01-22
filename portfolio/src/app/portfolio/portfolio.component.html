@@ -38,7 +38,14 @@
       </div>-->
     </div>
   </div>
-  <app-projets></app-projets>
+
+  <div class="filter-techno">
+    <div *ngFor="let techno of technos" [matTooltip]="techno.name" matTooltipPosition="above" matTooltipClass="tooltip" (click)="selectedTechno(techno)">
+      <img class="logo-style" [ngClass]="{'logo-style-selected': techno.selected}" [src]="techno.logo"/>
+    </div>
+  </div>
+
+  <app-project [technoSelected]="technoSelected"></app-project>
   <div (click)="scrollToElement(target0)" class="fleche"></div>
   <app-footer></app-footer>
 </div>
