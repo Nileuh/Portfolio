@@ -28,6 +28,8 @@ import { environment } from '../environments/environment';
 import {MatChipsModule} from "@angular/material/chips";
 import {ProjectComponent} from "./portfolio/project/project.component";
 import {MatTooltipModule} from "@angular/material/tooltip";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselComponent } from './carousel/carousel.component';
 
 // tslint:disable-next-line:typedef
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -43,6 +45,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     FooterComponent,
     ProjetsComponent,
     ProjectComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -74,6 +77,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

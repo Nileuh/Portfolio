@@ -111,8 +111,8 @@
     "BUTTON11": "SEE MORE",
     "DATE11": "March 2021",
 
-    "TITLE13" : "BrainSquiz web app",
-    "SSTITLE13" : "Full Stack developer since April 2021 at Infotel Blagnac",
+    "TITLE13" : "BrainSquiz web app | Infotel",
+    "SSTITLE13" : "Full Stack developer",
     "TEXT13": "Developed a web and mobile app to assess employee skills.",
     "TEXT131": "Conceived and developed various features: levels, challenge and multiplayer modes, friends and notifications management using SignalR.",
     "TEXT132": "Created REST API endpoints for retrieving data from a relational database.",

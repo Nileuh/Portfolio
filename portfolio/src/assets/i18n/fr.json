@@ -110,8 +110,8 @@
     "BUTTON11": "EN SAVOIR PLUS",
     "DATE11": "Mars 2021",
 
-    "TITLE13" : "Application web BrainSquiz",
-    "SSTITLE13" : "Développeur full stack depuis avril 2021 pour Infotel Blagnac",
+    "TITLE13" : "Application web BrainSquiz | Infotel",
+    "SSTITLE13" : "Développeur full stack",
     "TEXT13": "Application web et mobile BrainSquiz pour évaluer les compétences des employés.",
     "TEXT131": "Conception et développement des fonctionnalités: niveaux, modes défi et multijoueurs, gestion des amis et des notifications en utilisant SignalR.",
     "TEXT132": "Création de endpoints dans une API REST pour communiquer avec une base de données relationnelle.",

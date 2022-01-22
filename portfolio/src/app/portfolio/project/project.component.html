@@ -11,13 +11,14 @@
         <mat-card-title>{{ 'PROJECTS.TITLE13' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE13' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/brainsquiz/Resultat_multi.PNG" alt="BrainSquiz">
+      <app-carousel [projectName]="'brainsquiz'"></app-carousel>
+<!--      <img class="capture" mat-card-image src="assets/brainsquiz/Resultat_multi.PNG" alt="BrainSquiz">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT13' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT131' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT132' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT133' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT134' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT13' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT131' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT132' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT133' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT134' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -41,10 +42,11 @@
         <mat-card-title>{{ 'PROJECTS.TITLE1' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE1' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/admob/admob4R.jpg" alt="admob ads on IOS and Android application">
+      <app-carousel [projectName]="'admob'"></app-carousel>
+<!--      <img mat-card-image src="assets/admob/admob4R.jpg" alt="admob ads on IOS and Android application">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT1' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT12' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT1' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT12' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -67,13 +69,14 @@
         <mat-card-title>{{ 'PROJECTS.TITLE2' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE2' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/salepim/salepimR.jpg" alt="https://salepim.fr">
+        <app-carousel [projectName]="'salepim'"></app-carousel>
+<!--    <img mat-card-image src="assets/salepim/salepimR.jpg" alt="https://salepim.fr">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT2' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT22' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT23' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT24' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT25' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT2' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT22' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT23' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT24' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT25' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -96,10 +99,11 @@
         <mat-card-title>{{ 'PROJECTS.TITLE3' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE3' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/lafdpp/lafdpp2R.jpg" alt="https://lafeedespetitspas.fr">
+      <app-carousel [projectName]="'lafdpp'"></app-carousel>
+<!--      <img mat-card-image src="assets/lafdpp/lafdpp2R.jpg" alt="https://lafeedespetitspas.fr">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT3' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT32' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT3' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT32' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -125,11 +129,12 @@
         <mat-card-title>{{ 'PROJECTS.TITLE4' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE4' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/koncept/konceptR.jpg" alt="https://www.koncept-komet.fr/">
+      <app-carousel [projectName]="'koncept'"></app-carousel>
+<!--      <img mat-card-image src="assets/koncept/konceptR.jpg" alt="https://www.koncept-komet.fr/">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT4' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT42' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT43' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT4' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT42' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT43' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -151,10 +156,12 @@
         <mat-card-title>{{ 'PROJECTS.TITLE11' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE11' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/webx/webxR2.jpg" alt="Qu'est-ce qu'on mange ?">
+      <div class="capture">
+        <img mat-card-image src="assets/webx/webxR2.jpg" alt="Qu'est-ce qu'on mange ?">
+      </div>
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT11' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT112' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT11' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT112' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -180,11 +187,13 @@
         <mat-card-title>{{ 'PROJECTS.TITLE6' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE6' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/betfight_wp/betfightR.jpg" alt="Site internet https://betfight.net">
+      <div class="capture">
+        <img mat-card-image src="assets/betfight_wp/betfightR.jpg" alt="Site internet https://betfight.net">
+      </div>
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT6' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT62' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT63' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT6' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT62' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT63' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -206,11 +215,12 @@
         <mat-card-title>{{ 'PROJECTS.TITLE7' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE7' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/jeu2D/jeu2dR.jpg" alt="Jeu 2D">
+      <app-carousel [projectName]="'jeu2D'"></app-carousel>
+<!--      <img mat-card-image src="assets/jeu2D/jeu2dR.jpg" alt="Jeu 2D">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT7' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT72' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT73' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT7' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT72' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT73' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -234,11 +244,12 @@
         <mat-card-title>{{ 'PROJECTS.TITLE5' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE5' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/checktour/checktour2R.jpg" alt="Application Android CheckTour">
+      <app-carousel [projectName]="'checktour'"></app-carousel>
+<!--      <img mat-card-image src="assets/checktour/checktour2R.jpg" alt="Application Android CheckTour">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT5' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT52' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT53' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT5' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT52' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT53' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -260,12 +271,14 @@
         <mat-card-title>{{ 'PROJECTS.TITLE8' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE8' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/neocampus/neocampus2R.jpg" alt="NeoCampus">
+      <div class="capture">
+        <img mat-card-image src="assets/neocampus/neocampus2R.jpg" alt="NeoCampus">
+      </div>
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT8' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT82' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT83' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT84' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT8' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT82' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT83' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT84' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -290,10 +303,11 @@
         <mat-card-title>{{ 'PROJECTS.TITLE10' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE10' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/cadeaunoel/cadeaunoelR.jpg" alt="Cadeaux de noël">
+      <app-carousel [projectName]="'noel'"></app-carousel>
+<!--      <img mat-card-image src="assets/cadeaunoel/cadeaunoelR.jpg" alt="Cadeaux de noël">-->
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT10' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT102' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT10' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT102' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
@@ -315,10 +329,12 @@
         <mat-card-title>{{ 'PROJECTS.TITLE9' | translate }}</mat-card-title>
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE9' | translate }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/techblog/techblogR.png" alt="TechBlog">
+      <div class="capture">
+        <img mat-card-image src="assets/techblog/techblogR.png" alt="TechBlog">
+      </div>
       <mat-card-content>
-        <p>{{ 'PROJECTS.TEXT9' | translate }}</p>
-        <p>{{ 'PROJECTS.TEXT92' | translate }}</p>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT9' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT92' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
