@@ -257,17 +257,35 @@ screen and (max-width:1100px) {
   li{
     font-size: 0.8em;
   }
-  .filter-techno{
-    visibility: hidden;
-    margin-bottom: 0px;
-  }
-  .logo-style {
+  //.filter-techno{
+    //visibility: hidden;
+    //margin-bottom: 0px;
+  //}
+/*  .logo-style {
     width: 0px;
     height: 0px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 0px;
     padding: 0px;
+  }*/
+  .filter-techno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .logo-style {
+    width:75px;
+    height: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: transform .2s;
+    border-radius:10px;
+    padding: 5px;
+    background-color: #4c5158;
   }
 
 }

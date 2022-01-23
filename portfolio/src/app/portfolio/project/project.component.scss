@@ -141,7 +141,7 @@ mat-card-actions{
 @media screen and (max-device-width:1700px),
 screen and (max-width:1700px) {
   .emptyAfterFleche{
-    height: 20px;
+    height: 10px;
   }
 }
 
@@ -163,7 +163,7 @@ screen and (max-width:1400px) {
     padding-right: 15px !important;
   }
   .emptyAfterFleche{
-    height: 40px;
+    height: 0px;
   }
   .datesp{
     padding-right: 5px;
@@ -190,7 +190,7 @@ screen and (max-width:768px) {
     margin-right: 0;
   }
   .emptyAfterFleche{
-    height: 40px;
+    height: 0px;
   }
   .techno{
     font-size: 0.8em;
