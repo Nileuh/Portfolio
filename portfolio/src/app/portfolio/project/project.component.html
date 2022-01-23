@@ -22,9 +22,9 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[2].logo"/>
-          <img class="logo-styl" [src]="technos[3].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[2].name" [src]="technos[2].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[3].name" [src]="technos[3].logo"/>
           <img class="logo-styl" [src]="technosBdd[2].logo"/>
         </div>
         <div class="datesp">
@@ -54,9 +54,9 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[1].logo"/>
-          <img class="logo-styl" [src]="technosBdd[1].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="'Java Spring'" [src]="technosWithoutFilter[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technosBdd[1].name" [src]="technosBdd[1].logo"/>
         </div>
         <div class="datesp">
           <p>{{ 'PROJECTS.DATE2' | translate}}</p>
@@ -82,7 +82,7 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
           <img class="logo-styl-firebase" [src]="technosBdd[3].logo"/>
         </div>
         <div class="datesp">
@@ -139,8 +139,8 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[1].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="'Java Spring'" [src]="technosWithoutFilter[0].logo"/>
           <img class="logo-styl" [src]="technosBdd[1].logo"/>
         </div>
         <div class="datesp">
@@ -161,17 +161,18 @@
         <mat-card-subtitle>{{ 'PROJECTS.SSTITLE15' | translate }}</mat-card-subtitle>
       </mat-card-header>
       <app-carousel [projectName]="'restaurant'"></app-carousel>
-      <!--      <img mat-card-image src="assets/restaurant/restaurant.jpg" alt="Application Android CheckTour">-->
+      <!--      <img mat-card-image src="assets/restaurant/restaurant.jpg" alt="restaurant">-->
       <mat-card-content>
         <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT15' | translate }}</strong></p>
         <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT151' | translate }}</p></div>
         <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT152' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT153' | translate }}</p></div>
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[1].logo"/>
-          <img class="logo-styl" [src]="technosBdd[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="'Java Spring'" [src]="technosWithoutFilter[0].logo"/>
+          <img class="logo-styl-firebase" [src]="technosBdd[0].logo"/>
         </div>
         <div class="datesp">
           <p>{{ 'PROJECTS.DATE15' | translate}}</p>
@@ -198,9 +199,9 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[1].logo"/>
-          <img class="logo-styl" [src]="technosBdd[1].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="'Java Spring'" [src]="technosWithoutFilter[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technosBdd[1].name" [src]="technosBdd[1].logo"/>
         </div>
         <div class="datesp">
           <p>{{ 'PROJECTS.DATE4' | translate}}</p>
@@ -308,7 +309,7 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[5].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[5].name" [src]="technos[5].logo"/>
           <img class="logo-styl" [src]="technos[1].logo"/>
         </div>
         <div class="datesp">
@@ -366,9 +367,9 @@
       </mat-card-content>
       <mat-card-actions>
         <div class="filter-techn">
-          <img class="logo-styl" [src]="technos[0].logo"/>
-          <img class="logo-styl" [src]="technos[1].logo"/>
-          <img class="logo-styl" [src]="technosBdd[1].logo"/>
+          <img class="logo-styl" [matTooltip]="technos[0].name" [src]="technos[0].logo"/>
+          <img class="logo-styl" [matTooltip]="'Java Spring'" [src]="technosWithoutFilter[0].logo"/>
+          <img class="logo-styl" [matTooltip]="technosBdd[1].name" [src]="technosBdd[1].logo"/>
         </div>
         <div class="datesp">
           <p>{{ 'PROJECTS.DATE9' | translate}}</p>

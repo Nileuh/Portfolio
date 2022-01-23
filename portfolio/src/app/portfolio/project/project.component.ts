@@ -15,6 +15,8 @@ export class ProjectComponent implements OnInit {
 
   technos: Techno[] = [];
   technosBdd: Techno[] = [];
+  technosWithoutFilter: Techno[] = [];
+
 
   constructor(private dataService: DatasService) {
   }
@@ -22,6 +24,7 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
     this.technos = this.dataService.getTechnos();
     this.technosBdd = this.dataService.getTechnosBdd();
+    this.technosWithoutFilter = this.dataService.getTechnosWithoutFilter();
   }
 
   scrollToElement($element): void {

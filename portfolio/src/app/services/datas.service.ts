@@ -10,6 +10,7 @@ export class DatasService {
 
   technos:Techno[] = [];
   technosBdd:Techno[] = [];
+  technosWithoutFilter:Techno[] = [];
 
   constructor(private translate: TranslateService) {
     this.initValues();
@@ -29,7 +30,10 @@ export class DatasService {
       {name:"PostgreSQL", logo:"./assets/logos/postgresql.png", selected:false},
       {name:"SQL Server", logo:"./assets/logos/sqlserver.png", selected:false},
       {name:"Firebase", logo:"./assets/logos/firebase.png", selected:false},
-    ]
+    ];
+    this.technosWithoutFilter = [
+      {name:"JavaSpring", logo:"./assets/logos/spring.svg", selected:false}
+    ];
   }
 
   getTechnos() : Techno[]{
@@ -40,5 +44,10 @@ export class DatasService {
   getTechnosBdd(): Techno[]{
     this.initValues();
     return this.technosBdd;
+  }
+
+  getTechnosWithoutFilter(): Techno[]{
+    this.initValues();
+    return this.technosWithoutFilter;
   }
 }

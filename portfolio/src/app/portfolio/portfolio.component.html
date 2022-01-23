@@ -40,7 +40,7 @@
   </div>
 
   <div class="filter-techno">
-    <div *ngFor="let techno of technos" [matTooltip]="techno.name" matTooltipPosition="above" matTooltipClass="tooltip" (click)="selectedTechno(techno)">
+    <div *ngFor="let techno of technos" [matTooltip]="techno.name" (click)="selectedTechno(techno)">
       <img class="logo-style" [ngClass]="{'logo-style-selected': techno.selected}" [src]="techno.logo"/>
     </div>
   </div>
