@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642933215677,
+  "timestamp": 1642953115422,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -29,6 +29,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "./assets/Arnaud-HUELIN-diplome-licence.jpg",
+        "./assets/Arnaud-HUELIN-releves-notes-master1.pdf",
         "./assets/HUELIN-Arnaud_CV-francais.pdf",
         "./assets/HUELIN-Arnaud_CV.pdf",
         "./assets/HUELIN-Arnaud_Resume-english.pdf",
@@ -141,6 +143,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "./assets/Arnaud-HUELIN-diplome-licence.jpg": "488ee7bb3d9299c863b560ed1bd6035c7cbdc472",
+    "./assets/Arnaud-HUELIN-releves-notes-master1.pdf": "084e756430800412e7ed4ea4cdd009de43ad39eb",
     "./assets/HUELIN-Arnaud_CV-francais.pdf": "5d23c8735569c1216bfe85baec781a95ab517691",
     "./assets/HUELIN-Arnaud_CV.pdf": "04d45bdc39779ee923bdb2776f70fa5bcb1667f5",
     "./assets/HUELIN-Arnaud_Resume-english.pdf": "1ab64ae8da07c615f821097b97913685bc8aaa4e",
