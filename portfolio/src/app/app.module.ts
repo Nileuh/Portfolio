@@ -30,6 +30,7 @@ import {ProjectComponent} from "./portfolio/project/project.component";
 import {MatTooltipModule} from "@angular/material/tooltip";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
+import { DocumentsComponent } from './documents/documents.component';
 
 // tslint:disable-next-line:typedef
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -46,6 +47,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ProjetsComponent,
     ProjectComponent,
     CarouselComponent,
+    DocumentsComponent,
   ],
   imports: [
     BrowserModule,
