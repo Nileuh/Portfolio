@@ -276,6 +276,9 @@ screen and (max-width:1100px) {
     margin-bottom: 20px;
     flex-wrap: wrap;
   }
+  .logo-style:hover{
+    background-color: #4c5158;
+  }
   .logo-style {
     width:75px;
     height: 75px;
@@ -286,9 +289,6 @@ screen and (max-width:1100px) {
     border-radius:10px;
     padding: 5px;
     background-color: #4c5158;
-  }
-  .logo-style:hover{
-    background-color: #f5f5f6!important;
   }
 
 }
