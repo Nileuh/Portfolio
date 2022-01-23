@@ -152,6 +152,36 @@
     </mat-card>
   </div>
 
+
+  <div class="carte" *ngIf="technoSelected=='Angular' || technoSelected=='Java' || technoSelected == null">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{ 'PROJECTS.TITLE15' | translate }}</mat-card-title>
+        <mat-card-subtitle>{{ 'PROJECTS.SSTITLE15' | translate }}</mat-card-subtitle>
+      </mat-card-header>
+      <app-carousel [projectName]="'restaurant'"></app-carousel>
+      <!--      <img mat-card-image src="assets/restaurant/restaurant.jpg" alt="Application Android CheckTour">-->
+      <mat-card-content>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT15' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT151' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT152' | translate }}</p></div>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="filter-techn">
+          <img class="logo-styl" [src]="technos[0].logo"/>
+          <img class="logo-styl" [src]="technos[1].logo"/>
+          <img class="logo-styl" [src]="technosBdd[0].logo"/>
+        </div>
+        <div class="datesp">
+          <p>{{ 'PROJECTS.DATE15' | translate}}</p>
+        </div>
+        <!--        <button mat-button class="techno" disabled>{{ 'PROJECTS.TECHNO5' | translate }}</button>-->
+        <!--        <button mat-raised-button color="primary">{{ 'PROJECTS.BUTTON5' | translate }}</button>-->
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
   <div class="carte" *ngIf="technoSelected=='Angular' || technoSelected=='Java' || technoSelected == null">
     <mat-card class="example-card">
       <mat-card-header>

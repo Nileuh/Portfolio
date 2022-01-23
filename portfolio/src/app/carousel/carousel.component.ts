@@ -16,6 +16,7 @@ export class CarouselComponent implements OnInit{
   checktour:string[];
   noel:string[];
   keymaster:string[];
+  restaurant:string[];
 
 
   @Input()
@@ -32,6 +33,7 @@ export class CarouselComponent implements OnInit{
     this.checktour = ['assets/checktour/checktour1.jpg', 'assets/checktour/checktour2.jpg','assets/checktour/checktour3.jpg', 'assets/checktour/checktour4.jpg','assets/checktour/checktour5.jpg', 'assets/checktour/checktour6.jpg','assets/checktour/checktour7.jpg'];
     this.noel = ['assets/cadeaunoel/cadeaunoelR.jpg', 'assets/cadeaunoel/cadeaunoelR2.jpg'];
     this.keymaster = ['assets/keymaster/keymaster1.JPG', 'assets/keymaster/keymaster2.JPG','assets/keymaster/keymaster3.JPG', 'assets/keymaster/keymaster4.JPG','assets/keymaster/keymaster5.JPG'];
+    this.restaurant = ['assets/restaurant/restaurant1.JPG', 'assets/restaurant/restaurant2.JPG', 'assets/restaurant/restaurant3.JPG'];
 
     if (this.projectName=="brainsquiz"){
       this.images = this.brainsquiz;
@@ -51,6 +53,8 @@ export class CarouselComponent implements OnInit{
       this.images = this.noel;
     }else if (this.projectName=="keymaster"){
       this.images = this.keymaster;
+    }else if (this.projectName=="restaurant"){
+      this.images = this.restaurant;
     }
 
   }
