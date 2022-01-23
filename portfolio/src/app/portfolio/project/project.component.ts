@@ -14,12 +14,14 @@ export class ProjectComponent implements OnInit {
   technoSelected: string;
 
   technos: Techno[] = [];
+  technosBdd: Techno[] = [];
 
   constructor(private dataService: DatasService) {
   }
 
   ngOnInit(): void {
     this.technos = this.dataService.getTechnos();
+    this.technosBdd = this.dataService.getTechnosBdd();
   }
 
   scrollToElement($element): void {

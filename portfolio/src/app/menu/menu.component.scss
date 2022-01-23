@@ -28,7 +28,6 @@
   flex-direction: row;
   justify-content: center;
   clip-path: polygon(20% 100%, 80% 100%, 100% 0, 0 0);
-
   width:40%;
   margin-top: 30px;
   position: fixed;
@@ -50,7 +49,9 @@ button{
   color:#f5f5f6!important;
   letter-spacing: 1px;
 }
-
+.resume-menu{
+  width: 160px;
+}
 .job{
   font-size: 1em;
   font-weight: lighter;
