@@ -40,3 +40,9 @@ ng deploy --base-href=/Portfolio/
 OU 
 
 ng deploy --cname=example.org
+
+OU (si nom de domaine)
+ng deploy --base-href="./"
+puis aller sur github, dans le repo Portfolio puis settings
+aller dans pages
+dans custom domain mettre : www.arnaudhuelin.com
