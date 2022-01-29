@@ -3,9 +3,9 @@
 <app-menu></app-menu>
   <div class="liens">
     <div class="divLiens">
-      <a href="https://www.linkedin.com/in/arnaud-huelin" target="_blank"><img src="assets/linkedin.svg" width="35px" height="35px"/></a>
+      <a href="https://www.linkedin.com/in/arnaud-huelin" target="_blank"><img src="assets/linkedin.svg" width="35px" height="35px" alt="Arnaud Huelin"/></a>
       <div class="mailto">
-        <a href="mailto:arnaud.huelin@gmail.com"><img src="assets/gmail-icon.svg" width="auto" height="35px" title="arnaud.huelin@gmail.com"/></a>
+        <a href="mailto:arnaud.huelin@gmail.com"><img src="assets/gmail-icon.svg" width="auto" height="35px" title="arnaud.huelin@gmail.com" alt="Arnaud Huelin"/></a>
       </div>
     </div>
     <div class="divLang">
@@ -41,7 +41,7 @@
 
   <div class="filter-techno">
     <div *ngFor="let techno of technos" [matTooltip]="techno.name" (click)="selectedTechno(techno)">
-      <img class="logo-style" [ngClass]="{'logo-style-selected': techno.selected}" [src]="techno.logo"/>
+      <img class="logo-style" [ngClass]="{'logo-style-selected': techno.selected}" [src]="techno.logo" alt="Arnaud Huelin"/>
     </div>
   </div>
 
