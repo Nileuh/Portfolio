@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643909975776,
+  "timestamp": 1643910123136,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -182,8 +182,8 @@
     "./assets/fr-flag.PNG": "e2ff0cf35034148c6cb022fe65f8f9af00868428",
     "./assets/fre.png": "6d8cf0304ea87b7a73831e2818f3d23e71a9cde2",
     "./assets/gmail-icon.svg": "649a01758fb3152c6bb3e0307f442b9f3e6d2f48",
-    "./assets/i18n/en.json": "a6ae6022ae8b2cfbc507aa87b574973382c8d727",
-    "./assets/i18n/fr.json": "9b147e71214866b50aad82c61fe57972f91e2102",
+    "./assets/i18n/en.json": "b7092fff1f4b79177c981e98b34660bdfbed8042",
+    "./assets/i18n/fr.json": "59c7b667a4c88d2514655e1564319705a2d8985b",
     "./assets/icons/hln.png": "06ac845a414c61fe14acc484f7cd4832d771db91",
     "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
