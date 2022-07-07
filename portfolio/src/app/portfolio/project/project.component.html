@@ -4,6 +4,37 @@
 
 <div class="projets">
 
+  <div class="carte" *ngIf="technoSelected=='Blazor' || technoSelected=='.NET' || technoSelected == null">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{ 'PROJECTS.TITLE16' | translate }}</mat-card-title>
+        <mat-card-subtitle>{{ 'PROJECTS.SSTITLE16' | translate }}</mat-card-subtitle>
+      </mat-card-header>
+      <!--      <app-carousel [projectName]="'V&V Qualification Tool'"></app-carousel>-->
+      <img class="capture" mat-card-image src="assets/confidential_image.png" alt="V&V Qualification Tool">
+      <mat-card-content>
+        <p class="tasktitle"><strong>{{ 'PROJECTS.TEXT16' | translate }}</strong></p>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT161' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT162' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT163' | translate }}</p></div>
+        <div class="task"><mat-icon class="material-icons taskicon">task_alt</mat-icon><p class="tasktext">{{ 'PROJECTS.TEXT164' | translate }}</p></div>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="filter-techn">
+          <img class="logo-styl" [matTooltip]="technos[6].name" [src]="technos[6].logo" alt="Arnaud Huelin"/>
+          <img class="logo-styl" [matTooltip]="technos[2].name" [src]="technos[2].logo" alt="Arnaud Huelin"/>
+          <img class="logo-styl" [src]="technosBdd[2].logo" alt="Arnaud Huelin"/>
+        </div>
+        <div class="datesp">
+          <p>{{ 'PROJECTS.DATE16' | translate}}</p>
+        </div>
+        <!--        <button mat-button class="techno" disabled>{{ 'PROJECTS.TECHNO13' | translate }}</button>-->
+        <!--        <button mat-raised-button color="primary" disabled>{{ 'PROJECTS.BUTTON9' | translate }}</button>-->
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
   <div class="carte" *ngIf="technoSelected=='Angular' || technoSelected=='.NET' || technoSelected=='Flutter' || technoSelected == null">
     <mat-card class="example-card">
       <mat-card-header>

@@ -23,7 +23,8 @@ export class DatasService {
       {name:".NET", logo:"./assets/logos/PngItem_5318011.png", selected:false},
       {name:"Flutter", logo:"./assets/logos/Flutter/Flutter/logo_flutter_1080px_clr.svg", selected:false},
       {name:"PHP", logo:"./assets/logos/PHPLogo.svg", selected:false},
-      {name:"VueJS", logo:"./assets/logos/vuejs-seeklogo.com.svg", selected:false}
+      {name:"VueJS", logo:"./assets/logos/vuejs-seeklogo.com.svg", selected:false},
+      {name:"Blazor", logo:"./assets/logos/blazor.svg", selected:false}
     ];
     this.technosBdd = [
       {name:"MySQL", logo:"./assets/logos/mysql.png", selected:false},
