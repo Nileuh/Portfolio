@@ -125,7 +125,7 @@
     "TITLE16" : "V&V Qualification Tool web app | Airbus",
     "SSTITLE16" : "Full Stack developer",
     "TEXT16": "Web app to manage employee and supplier qualifications.",
-    "TEXT161": "Conceived and developed employee and supplier qualifications management : import data from a .docx file and according to import rules, generation of import reports, export data to a .csv file, automatic deletion of old reports.",
+    "TEXT161": "Conceived and developed supplier qualifications management : import data from a .docx file and according to import rules, generation of import reports, export data to a .csv file, automatic deletion of old reports.",
     "TEXT162": "Managing thread concurrency with the use of mutexes and locks on critical resources.",
     "TEXT163": "Created REST API endpoints for retrieving data from a relational database.",
     "TEXT164": "Configurated and deployed integration server.",
