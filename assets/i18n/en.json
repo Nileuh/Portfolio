@@ -9,7 +9,7 @@
     "TEXT_ABOUTME2" : "A lifelong passion for computers, I realized several projects with different technologies, programming languages and frameworks.",
     "TEXT_ABOUTME3" : "Presently I work as a Full Stack Developer at Extia in Montréal, Canada.",
     "TITLE_EDUCATION": "EDUCATION",
-    "LI1": "Bachelor degree of computer science",
+    "LI1": "Bachelor degree of computer science (link in French)",
     "LI2": "Master degree in software development"
   },
   "PROJECTS": {
@@ -19,7 +19,7 @@
     "TEXT12": "Configurated ads settings: frequency,  ads categories, rewards after watching ads.",
     "TECHNO1": "Angular Ionic Capacitor",
     "BUTTON1": "SEE MORE",
-    "DATE1": "December 2020 - April 2021",
+    "DATE1": "December 2020 to April 2021",
 
     "TITLE2" : "Paul Wilson Editions web app",
     "SSTITLE2" : "Full stack developer | Self-entrepreneurship project",
@@ -47,7 +47,7 @@
     "TEXT43": "Integrated an admin interface to manage vacancies.",
     "TECHNO4": "Angular 8 and Java Spring",
     "BUTTON4": "SEE MORE",
-    "DATE4": "January 2019 - June 2019",
+    "DATE4": "January 2019 to June 2019",
 
     "TITLE5" : "Android CheckTour application",
     "SSTITLE5" : "Android developer | Self-entrepreneurship project",
@@ -65,7 +65,7 @@
     "TEXT63": "Contact form. Internationalisation of the site text in EN/FR.",
     "TECHNO6": "WordPress and PHP",
     "BUTTON6": "SEE MORE",
-    "DATE6": "December 2020 - April 2021",
+    "DATE6": "December 2020 to April 2021",
 
     "TITLE7" : "2D game",
     "SSTITLE7" : "Personal project",
@@ -93,7 +93,7 @@
     "TEXT92": "Administration interface to add, edit or delete items by category. Contact form.",
     "TECHNO9": "Angular 8 and Java Spring",
     "BUTTON9": "SEE MORE",
-    "DATE9": "March 2019 - April 2019",
+    "DATE9": "March 2019 to April 2019",
 
     "TITLE10" : "Christmas gifts",
     "SSTITLE10" : "Personal project",
@@ -164,7 +164,7 @@
     "EXP1": {
       "TITLE": "Military computer technician",
       "COMPANY" : "French Air Forces",
-      "DATE" : "2013 - 2019",
+      "DATE" : "2013 to 2019",
       "TEXT": "Ground to Air Defense Squadron of Mont-de-Marsan Air Base",
       "LI1": "Computer and electronic maintenance and supervision",
       "LI2": "Network administration",
@@ -182,7 +182,7 @@
     "EXP3": {
       "TITLE": "Self-employed",
       "COMPANY" : "CodeHLN",
-      "DATE" : "2019 - 2022",
+      "DATE" : "2019 to 2022",
       "TEXT": "In addition to my studies",
       "LI1": "E-commerce site for the publisher Paul Wilson Editions in Angular and Java EE",
       "LI2": "Website for La Fée des Petits Pas with Wordpress"
@@ -206,7 +206,7 @@
     "EXP6": {
       "TITLE": "Full stack developer of a web application and a mobile application with Angular, ASP.NET and Flutter",
       "COMPANY" : "Infotel",
-      "DATE" : "2021 - 2022",
+      "DATE" : "2021 to 2022",
       "TEXT": "Futur projet",
       "DURATION": "Work-study contract of one year"
     }

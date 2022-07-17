@@ -7,7 +7,7 @@
     "TITLE_ABOUTME": "DÉVELOPPEUR FULL STACK",
     "TEXT_ABOUTME1" : "Diplômé d'un master informatique développement logiciel, je me suis spécialisé dans l'ingénierie du logiciel ces dernières années.",
     "TEXT_ABOUTME2" : "Passionné par l'informatique depuis toujours, j'ai réalisé plusieurs projets avec différentes technologies, langages de programmation et frameworks.",
-    "TEXT_ABOUTME3" : "Je suis actuellement développeur Full Stack chez Extia à Montréal, Canada.",
+    "TEXT_ABOUTME3" : "Je suis actuellement développeur Full Stack chez Extia à Montréal au Canada.",
     "TITLE_EDUCATION": "EDUCATION",
     "LI1": "Licence informatique",
     "LI2": "Master informatique parcours Développement Logiciel"
@@ -130,7 +130,7 @@
     "TEXT164": "Configuration et déploiement sur un serveur d'intégration.",
     "TECHNO16": "Blazor et ASP.NET",
     "BUTTON16": "SEE MORE",
-    "DATE16": "Avril 2022 à ce août 2022",
+    "DATE16": "Avril 2022 à août 2022",
 
     "TITLE14" : "Application web Keymaster",
     "SSTITLE14" : "Développeur full stack | Projet d'auto-entrepreunariat",
