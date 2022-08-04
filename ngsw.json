@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658090094514,
+  "timestamp": 1659626442682,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -33,7 +33,6 @@
         "./assets/Arnaud-HUELIN-releve-notes-licence.jpg",
         "./assets/Arnaud-HUELIN-releves-notes-master1.pdf",
         "./assets/HUELIN-Arnaud_CV-francais.pdf",
-        "./assets/HUELIN-Arnaud_CV.pdf",
         "./assets/HUELIN-Arnaud_Resume-english.pdf",
         "./assets/admob/admob4R.jpg",
         "./assets/admob/admob4R2.jpg",
@@ -153,9 +152,8 @@
     "./assets/Arnaud-HUELIN-diplome-licence.jpg": "488ee7bb3d9299c863b560ed1bd6035c7cbdc472",
     "./assets/Arnaud-HUELIN-releve-notes-licence.jpg": "711e2b7d79de5c90ffa96d2f6b9dcd8763bb6c7f",
     "./assets/Arnaud-HUELIN-releves-notes-master1.pdf": "084e756430800412e7ed4ea4cdd009de43ad39eb",
-    "./assets/HUELIN-Arnaud_CV-francais.pdf": "5282e4be9679b0563ba42a28b01c94653ed38e6c",
-    "./assets/HUELIN-Arnaud_CV.pdf": "04d45bdc39779ee923bdb2776f70fa5bcb1667f5",
-    "./assets/HUELIN-Arnaud_Resume-english.pdf": "a94f8c1cfd85a434e9ff170de3636d9d96fd7dff",
+    "./assets/HUELIN-Arnaud_CV-francais.pdf": "c7187dc8ea011e0c8b4fa44932be3265d0aa9c5e",
+    "./assets/HUELIN-Arnaud_Resume-english.pdf": "df33c5c357b8d14fe28e826ce85517c8c496de8e",
     "./assets/admob/admob4R.jpg": "a92330e4eba1ea752d1aabd233be5ad7d0deb37d",
     "./assets/admob/admob4R2.jpg": "0fa9f76edc75ed061f8d1bc7b3dc04b322e6cf43",
     "./assets/admob/admob4R3.jpg": "1f699bad1885c618ad2811b4d2841b9b0f695fd9",
@@ -185,8 +183,8 @@
     "./assets/fr-flag.PNG": "e2ff0cf35034148c6cb022fe65f8f9af00868428",
     "./assets/fre.png": "6d8cf0304ea87b7a73831e2818f3d23e71a9cde2",
     "./assets/gmail-icon.svg": "649a01758fb3152c6bb3e0307f442b9f3e6d2f48",
-    "./assets/i18n/en.json": "319e3cbb4ba3ab2f59b7e43c047db5da75580991",
-    "./assets/i18n/fr.json": "9339e7b422fe85e7005ada243a5596683c7ba09b",
+    "./assets/i18n/en.json": "fb440dffc79a6a55615bc7a0b3b4d30775023303",
+    "./assets/i18n/fr.json": "95c79aad7f2a249a3751f644ce91dd326c17e3f1",
     "./assets/icons/hln.png": "06ac845a414c61fe14acc484f7cd4832d771db91",
     "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",

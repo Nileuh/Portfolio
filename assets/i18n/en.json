@@ -5,12 +5,12 @@
   },
   "PORTFOLIO": {
     "TITLE_ABOUTME": "FULL STACK DEVELOPER",
-    "TEXT_ABOUTME1" : "Holding a master's degree in computer science software development, I'm specialised in software engineering.",
+    "TEXT_ABOUTME1" : "Holding a master's degree in computer science software development, I'm specialized in software engineering.",
     "TEXT_ABOUTME2" : "A lifelong passion for computers, I realized several projects with different technologies, programming languages and frameworks.",
     "TEXT_ABOUTME3" : "Presently I work as a Full Stack Developer at Extia in Montréal, Canada.",
     "TITLE_EDUCATION": "EDUCATION",
     "LI1": "Bachelor degree of computer science (link in French)",
-    "LI2": "Master degree in software development"
+    "LI2": "Master degree in software development (link in French)"
   },
   "PROJECTS": {
     "TITLE1" : "Android and IOS app Developer",
@@ -120,7 +120,7 @@
     "TEXT134": "Configurated and deployed integration server and on validation server.",
     "TECHNO13": "Angular, ASP.NET and Flutter",
     "BUTTON13": "SEE MORE",
-    "DATE13": "April 2021 to date",
+    "DATE13": "April 2021 to April 2022",
 
     "TITLE16" : "V&V Qualification Tool web app | Airbus",
     "SSTITLE16" : "Full Stack developer",
@@ -131,7 +131,7 @@
     "TEXT164": "Configurated and deployed integration server.",
     "TECHNO16": "Blazor and ASP.NET",
     "BUTTON16": "SEE MORE",
-    "DATE16": "April 2022 to August 2022",
+    "DATE16": "April 2022 to July 2022",
 
     "TITLE14" : "Keymaster web app",
     "SSTITLE14" : "Full Stack developer | Self-entrepreneurship project",
